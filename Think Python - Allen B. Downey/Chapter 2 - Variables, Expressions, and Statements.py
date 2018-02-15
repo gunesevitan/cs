@@ -87,7 +87,7 @@ print(delimiter * 5)  # '.....', string
 
 from math import pi
 
-(4.0 / 3.0) * pi * 5**3  # 523.5987755982989
+(4.0 / 3.0) * pi * 5 ** 3  # 523.5987755982989
 
 # 2. Suppose the cover price of a book is $24.95, but bookstores get a 40% discount.
 #    Shipping costs $3 for the first copy and 75 cents for each additional copy.
@@ -107,7 +107,7 @@ from datetime import datetime, timedelta
 
 easy_pace_seconds = (8 * 60) + 15
 tempo_pace_seconds = (7 * 60) + 12
-total_seconds = (easy_pace_seconds * 2)+(tempo_pace_seconds * 3)
+total_seconds = (easy_pace_seconds * 2) + (tempo_pace_seconds * 3)
 
 time_start = datetime(1, 1, 1, 6, 52)
 time_passed = timedelta(seconds=total_seconds)
