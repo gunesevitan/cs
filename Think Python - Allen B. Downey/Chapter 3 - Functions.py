@@ -1,5 +1,7 @@
 # Chapter Three Exercises
 
+
+
 # Exercise 3.1
 # Question:
 
@@ -23,6 +25,8 @@ repeat_lyrics()
 
 # NameError: name 'repeat_lyrics()' is not defined
 
+
+
 # Exercise 3.2
 # Question:
 
@@ -32,6 +36,8 @@ repeat_lyrics()
 # Answer:
 
 # Program works fine.
+
+
 
 # Exercise 3.3
 # Question:
@@ -52,6 +58,8 @@ def right_justify(s):
     spaces = ' ' * space_required
     print(spaces + s)
 
+	
+	
 # Exercise 3.4
 # Question:
 
@@ -63,6 +71,7 @@ def do_twice(f):
     f()
     f()
 
+	
 # Here’s an example that uses do_twice to call a function named print_spam twice.
 
 
@@ -86,6 +95,7 @@ def do_twice(f, v):
     f(v)
     f(v)
 
+	
 # 3. Write a more general version of print_spam, called print_twice,
 #    that takes a string as a parameter and prints it twice.
 
@@ -93,10 +103,12 @@ def do_twice(f, v):
 def print_twice(s):
     do_twice(print, s)
 
+	
 # 4. Use the modified version of do_twice to call print_twice twice, passing 'spam' as an argument.
 
 
 do_twice(print_twice, "spam")
+
 
 # 5. Define a function called do_four that takes a function object and a value
 #    and calls the function four times, passing the value as a parameter.
@@ -108,6 +120,8 @@ def do_four(f, val):
     do_twice(f, val)
     do_twice(f, val)
 
+	
+	
 # Exercise 3.5
 # Question:
 
@@ -150,6 +164,7 @@ def draw_grid():
 
 
 draw_grid()
+
 
 # 2. Write a function that draws a similar grid with four rows and four columns.
 

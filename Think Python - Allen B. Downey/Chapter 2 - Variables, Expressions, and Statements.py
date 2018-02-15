@@ -1,5 +1,7 @@
 # Chapter Two Exercises
 
+
+
 # Exercise 2.1
 # Question:
 
@@ -19,6 +21,8 @@
 # Numbers start with 0 (0o in Python 3) are octal literals. Interpreter assumes that the number is base 8.
 octal_num1 = 0o11  # 9
 octal_num2 = 0o100  # 64
+
+
 
 # Exercise 2.2
 # Question:
@@ -52,12 +56,13 @@ octal_num2 = 0o100  # 64
 
 # Exercise 2.3
 # Question:
-#
+
 # Assume that we execute the following assignment statements:
 
 width = 17
 height = 12.0
 delimiter = '.'
+
 # For each of the following expressions, write the value of the expression and the type.
 
 # width / 2
@@ -74,6 +79,8 @@ print(width / 2.0)  # 8.5, float
 print(height / 3)  # 4.0, float
 print(1 + 2 * 5)  # 11, int
 print(delimiter * 5)  # '.....', string
+
+
 
 # Exercise 2.4
 # Question:

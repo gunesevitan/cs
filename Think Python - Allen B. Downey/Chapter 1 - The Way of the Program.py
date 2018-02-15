@@ -1,5 +1,7 @@
 # Chapter One Exercises
 
+
+
 # Exercise 1.1
 # Question:
 
@@ -10,6 +12,8 @@
 
 Invalid_Tokens = 'Sh3 1s g01ng to sch00l.'
 Invalid_Syntax = 'going is school She to.'
+
+
 
 # Exercise 1.4
 # Question:
