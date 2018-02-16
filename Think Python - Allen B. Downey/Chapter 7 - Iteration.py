@@ -3,11 +3,8 @@
 
 
 # Exercise 7.1
-# Question:
-
 # Rewrite the function print_n from "Recursion" using iteration instead of recursion.
 
-# Answer:
 
 
 def print_n(n):
@@ -22,12 +19,9 @@ print_n(5)
 
 
 # Exercise 7.2
-# Question:
-
 # Encapsulate this loop in a function called square_root that takes a as a parameter,
 # chooses a reasonable values of x, and returns an estimate of the square root of a.
 
-# Answer:
 
 
 def square_root(a, x):
@@ -40,14 +34,11 @@ def square_root(a, x):
 
 
 # Exercise 7.3
-# Question:
-
 # Write a function called test_square_root that prints a table like this.
 
-# Answer:
+
 
 from math import sqrt
-
 
 def test_square_root(n):
     for i in range(1, n + 1):
@@ -59,13 +50,10 @@ test_square_root(9)
 
 
 # Exercise 7.4
-# Question:
-
 # The built-in function eval takes a string and evaluates it using the Python interpreter.
 # Write a function called eval_loop that iteratively prompts the user, takes the resulting input
 # and evaluates it using eval, and prints the result.
 
-# Answer:
 
 
 def eval_loop():
@@ -82,13 +70,10 @@ eval_loop()
 
 
 # Exercise 7.5
-# Question:
-
 # Write a function called estimate_pi that uses this formula to compute and return an estimate of pi.
 # It should use a while loop to compute terms of the summation until the last term is smaller than 1e - 15 (10^-15).
 # You can check the results by comparing it to math.pi.
 
-# Answer:
 
 
 def factorial(n):

@@ -3,12 +3,10 @@
 
 
 # Exercise 1.1
-# Question:
-
 # Write a well-structured English sentence with invalid tokens in it.
 # Then write another sentence with all valid tokens but with invalid structure.
 
-# Answer:
+
 
 Invalid_Tokens = 'Sh3 1s g01ng to sch00l.'
 Invalid_Syntax = 'going is school She to.'
@@ -16,15 +14,13 @@ Invalid_Syntax = 'going is school She to.'
 
 
 # Exercise 1.4
-# Question:
-
 # Start the Python interpreter and use it as a calculator.
 # Python’s syntax for math operations is almost the same as standard mathematical notation.
 # For example, the symbols +, -, / and * denote addition, subtraction, division and multiplication.
 # If you run a 10 kilometer race in 43 minutes 30 seconds, what is your average time per mile?
 # What is your average speed in miles per hour? (Hint: there are 1.61 kilometers in a mile).
 
-# Answer:
+
 
 # Average Time Per Mile
 

@@ -3,11 +3,8 @@
 
 
 # Exercise 8.1
-# Question:
-
 # Write a function that takes a string as an argument and displays the letters backward, one per line.
 
-# Answer:
 
 
 def print_backwards(s):
@@ -20,8 +17,6 @@ print_backwards("print backwards")
 
 
 # Exercise 8.2
-# Question:
-
 prefixes = "JKLMNOPQ"
 suffix = "ack"
 
@@ -31,7 +26,7 @@ for letter in prefixes:
 # Of course, that's not quite right because "Ouack" and "Quack" are misspelled.
 # Modify the program to fix this error.
 
-# Answer:
+
 
 for letter in prefixes:
     if letter in ["O","Q"]:
@@ -42,11 +37,9 @@ for letter in prefixes:
 
 
 # Exercise 8.3
-# Question:
-
 # Given that a fruit is a string, what does fruit[:] mean?
 
-# Answer:
+
 
 fruit = "banana"
 print(fruit[:])  # The entire string
@@ -54,11 +47,8 @@ print(fruit[:])  # The entire string
 
 
 # Exercise 8.4
-# Question:
-
 # Modify find so that it has a third parameter, the index in word where it should start looking.
 
-# Answer:
 
 
 def find(word, letter, index):
@@ -71,12 +61,10 @@ def find(word, letter, index):
 
 
 # Exercise 8.5
-# Question:
-
 # Encapsulate this code in a function named count, and generalize it
 # so that it accepts the string and the letter as arguments.
 
-# Answer:
+
 
 def count(word, letter):
     counter = 0
@@ -88,12 +76,10 @@ def count(word, letter):
 
 
 # Exercise 8.6
-# Question:
-
 # Rewrite this function so that instead of traversing the string, it uses the three-parameter
 # version of find from the previous section.
 
-# Answer:
+
 
 def count_find(word, letter):
     counter = 0
@@ -114,26 +100,20 @@ print(count_find("banana","a"))
 
 
 # Exercise 8.7
-# Question:
-
 # There is a string method called count that is similar to the function in the previous exercise.
 # Read the documentation of this method and write an invocation that counts the number of as in 'banana'.
 
 
-# Answer:
 
 print("banana".count("a"))
 
 
 
 # Exercise 8.9
-# Question:
-
 # Starting with this diagram, execute the program on paper, changing the values of i and j during each iteration.
 # Find and fix the second error in this function.
 
 
-# Answer:
 
 def is_reverse(word1, word2):
     if len(word1) != len(word2):
@@ -155,15 +135,11 @@ print(is_reverse("pots", "stop"))
 
 
 # Exercise 8.10
-# Question:
-
 # A string slice can take a third index that specifies the "step size;" that is, the number of spaces
 # between successive characters. A step size of 2 means every other character; 3 means every third, etc.
 # A step size of -1 goes through the word backwards, so the slice [::-1] generates a reversed string.
 # Use this idiom to write a one-line version of is_palindrome from Exercise 6.6.
 
-
-# Answer
 
 
 def is_palindrome(s):
@@ -172,13 +148,9 @@ def is_palindrome(s):
 
 
 # Exercise 8.11
-# Question:
-
 # The following functions are all intended to check whether a string contains any lowercase letters,
 # but at least some of them are wrong. For each function, describe what the function actually does.
 
-
-# Answer
 
 
 # Returns True or False depending on the first letter. Doesn't check the rest of the string.
@@ -188,8 +160,7 @@ def any_lowercase1(s):
             return True
         else:
             return False
-
-
+	
 # This will always return True because it checks the string 'c'.
 def any_lowercase2(s):
     for c in s:
@@ -221,12 +192,9 @@ def any_lowercase5(s):
 
 
 # Exercise 8.12
-# Question:
-
 # Write a function called rotate_word that takes a string and an integer as parameters, and that returns a new
 # string that contains the letters from the original string "rotated" by the given amount.
 
-# Answer
 
 
 def rotate_letter(letter, n):

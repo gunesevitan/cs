@@ -3,11 +3,8 @@
 
 
 # Exercise 6.1
-# Question:
-
 # Write a compare function that returns 1 if x > y, 0 if x == y, and -1 if x < y.
 
-# Answer:
 
 
 def compare(x, y):
@@ -21,16 +18,13 @@ def compare(x, y):
 
 
 # Exercise 6.2
-# Question:
-
 # Use incremental development to write a function called hypotenuse that
 # returns the length of the hypotenuse of a right triangle
 # given the lengths of the two legs as arguments.
 
-# Answer:
+
 
 from math import sqrt
-
 
 def hypotenuse(a, b):
 
@@ -41,11 +35,8 @@ def hypotenuse(a, b):
 
 
 # Exercise 6.3
-# Question:
-
 # Write a function is_between(x, y, z) that returns True if x <= y <= z or False otherwise.
 
-# Answer:
 
 
 def is_between(x, y, z):
@@ -54,8 +45,6 @@ def is_between(x, y, z):
 
 
 # Exercise 6.4
-# Question:
-
 # Draw a stack diagram for the following program. What does the program print?
 
 # def b(z):
@@ -76,7 +65,7 @@ def is_between(x, y, z):
 # y = x + 1
 # print c(x, y + 3, x + y)
 
-# Answer:
+
 
 # from swampy.Lumpy import Lumpy
 
@@ -105,8 +94,6 @@ def is_between(x, y, z):
 
 
 # Exercise 6.5
-# Question:
-
 # The Ackermann function, A(m, n) is defined:
 
 #           { n + 1                     if m = 0
@@ -117,7 +104,7 @@ def is_between(x, y, z):
 # Use your function to evaluate ack(3, 4), which should be 125.
 # What happens for larger values of m and n?
 
-# Answer:
+
 
 def ack(m, n):
     if m == 0:
@@ -127,7 +114,7 @@ def ack(m, n):
     if m > 0 and n > 0:
         return ack(m - 1, ack(m, n - 1))
 
-
+		
 print(ack(3, 4))
 
 # For larger values RecursionError is yield because maximum recursion depth is reached.
@@ -135,13 +122,10 @@ print(ack(3, 4))
 
 
 # Exercise 6.6
-# Question:
-
 # A palindrome is a word that is spelled the same backward and forward, like "noon" and "redivider".
 # Recursively, a word is a palindrome if the first and last letters are the same and the middle is palindrome.
 
 # The following are functions that take a string argument and return the first, last, and middle letters.
-
 
 def first(word):
     return word[0]
@@ -155,20 +139,16 @@ def middle(word):
     return word[1:-1]
 
 
-# Answer:
 
 # 1. Type these functions into a file named palindrome.py and test them out.
 #    What happens if you call middle with a string with two letters? One letter? What about the empty string?
 
-
 print(middle("ab"))  # Returns an empty string
 print(middle("a"))   # Returns an empty string
-print(middle(""))    # Returns an empty string,
-
+print(middle(""))    # Returns an empty string
 
 # 2. Write a function called is_palindrome that takes a string argument and returns True if it a palindrome
 #    and False otherwise. Remember that you can use the built-in function len to check the length of a string.
-
 
 def is_palindrome(word):
 
@@ -185,12 +165,10 @@ def is_palindrome(word):
 
 
 # Exercise 6.7
-# Question:
-
 # A number, a, is a power of b if it is divisible by b and a/b is a power of b. Write a function
 # called is_power that takes parameters a and b and returns True if a is a power of b.
 
-# Answer:
+
 
 def is_power(a, b):
     if a == b:
@@ -203,11 +181,8 @@ def is_power(a, b):
 
 
 # Exercise 6.8
-# Question:
-
 # Write a function called gcd that takes parameters a and b and returns their greatest common divisor.
 
-# Answer:
 
 
 def gcd(a, b):
