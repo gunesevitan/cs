@@ -8,7 +8,7 @@
 
 
 def print_n(n):
-    for i in range(n, 0, -1):
+    for i in range(n, 0, -1):  # -1 is the decrement value.
         print(i)
         if i == 1:
             print("Blastoff!")
@@ -61,7 +61,7 @@ def eval_loop():
         user_input = input('>>>')
         if user_input == 'done':
             break
-        value = eval(user_input)
+        value = eval(user_input)  # Takes a string and returns the value of it
         print(value)
 
 
@@ -77,7 +77,7 @@ eval_loop()
 
 
 def factorial(n):
-    if n == 0:
+    if n == 0:  # Base case to stop function
         return 1
     else:
         fact = factorial(n - 1)

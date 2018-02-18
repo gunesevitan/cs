@@ -9,7 +9,7 @@
 
 
 def do_n(f, n):
-    if n <= 0:
+    if n <= 0:  # Base case to stop the function
         return
     f()
     do_n(f, n - 1)

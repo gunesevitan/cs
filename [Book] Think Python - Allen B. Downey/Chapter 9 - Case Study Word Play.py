@@ -10,8 +10,8 @@
 def print_words():
     fin = open("words.txt")
     for line in fin:
-        if len(line.strip()) > 20:
-            print(line.strip())
+        if len(line.strip()) > 20:  
+            print(line.strip())  # Stripping the whitespace
 
 
 print_words()
@@ -39,7 +39,8 @@ def has_no_e_words():
         if has_no_e(line):
             print(line)
             no_e_words += 1
-    print((no_e_words / words) * 100)
+			
+    print((no_e_words / words) * 100)  # The ratio of no_e_words in total words
 
 
 

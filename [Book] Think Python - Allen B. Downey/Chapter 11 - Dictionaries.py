@@ -29,7 +29,8 @@ def create_word_dict():
 def histogram(s):
     d = {}
     for c in s:
-        d[c] = d.get(c, 0) + 1
+        d[c] = d.get(c, 0) + 1  # get will return given key's value and add +1 to the value
+								# if the key doesn't exist, it will create it with value 0 and add +1
     return d
 
 
@@ -89,10 +90,10 @@ def invert_dict(d):
 
 import time
 
-known = {0:0, 1:1}
+known = {0:0, 1:1}  # Cache for the computed values
 
 def fibonacci(n):
-    if n in known:
+    if n in known:  # Checking the cache first in order to save time
         return known[n]
 
     res = fibonacci(n - 1) + fibonacci(n - 2)
@@ -230,4 +231,4 @@ def are_homophones(a, b, phonetic):
     if a not in phonetic or b not in phonetic:
         return False
 
-    return phonetic[a] == phonetic[b]
+    return phonetic[a] == phonetic[b]  # Comparing the given words' phonetics'

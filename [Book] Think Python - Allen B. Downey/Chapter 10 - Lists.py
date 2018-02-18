@@ -12,7 +12,7 @@ def nested_sum(nested_list):
     total = 0
     for item in nested_list:
         if type(item) == list:
-            total += nested_sum(item)
+            total += nested_sum(item)  # If item's type is list, calling the nested_sum on the item
         else:
             total += item
     return total
@@ -62,7 +62,7 @@ def cumulative_sum(numbers):
     total = 0
     for number in numbers:
         total += number
-        result.append(total)
+        result.append(total)  # Adding the total to the result every iteration
     return result
 
 
@@ -288,6 +288,6 @@ def reverse_pair(words, word):
 
 
 def interlock(words, interlocked_word):
-    first_word = interlocked_word[::2]
-    second_word = interlocked_word[1::2]
-    return bisect(words, first_word) and bisect(words, second_word)
+    first_word = interlocked_word[::2]  # Extracting the first word from the interlocked word
+    second_word = interlocked_word[1::2]  # Extracting the second word from the interlocked word
+    return bisect(words, first_word) and bisect(words, second_word)  # If both words exist in the list, they can interlock

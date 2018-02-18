@@ -46,7 +46,7 @@ repeat_lyrics()
 
 
 def right_justify(s):
-    space_required = 70 - len(s)
+    space_required = 70 - len(s)  # Gives the column to start the string
     spaces = ' ' * space_required
     print(spaces + s)
 

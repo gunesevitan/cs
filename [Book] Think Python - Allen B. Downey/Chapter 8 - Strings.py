@@ -8,7 +8,7 @@
 
 
 def print_backwards(s):
-    for i in range(len(s) - 1, -1, -1):
+    for i in range(len(s) - 1, -1, -1): 
         print(s[int(i)])
 
 
@@ -53,7 +53,7 @@ print(fruit[:])  # The entire string
 
 def find(word, letter, index):
     while index < len(word):
-        if word[index] == letter:
+        if word[index] == letter:  # Starting from the given index
             return index
         index = index + 1
     return -1
@@ -87,9 +87,9 @@ def count_find(word, letter):
 
     while start_index < len(word):
       next_letter_position = find(word, letter, start_index)
-      if next_letter_position != -1:
+      if next_letter_position != -1:  # If next letter exists
         counter += 1
-        start_index = next_letter_position + 1
+        start_index = next_letter_position + 1  # Starting another iteration after the found letter
       else:
         break
     return counter
@@ -207,7 +207,7 @@ def rotate_letter(letter, n):
         return letter
 
     c = ord(letter) - start
-    i = (c + n) % 26 + start
+    i = (c + n) % 26 + start  # Using mod 26 because there are 26 letters
     return chr(i)
 
 

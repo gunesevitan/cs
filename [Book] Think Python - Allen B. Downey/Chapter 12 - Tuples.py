@@ -51,7 +51,7 @@ def most_frequent(s):
     for word, freq in hist.items():
         temp.append((freq, word))
 
-    temp.sort(reverse=True)
+    temp.sort(reverse=True)  # Sorting the words by their frequency in descending order
 
     res = []
     for freq, x in temp:
@@ -160,14 +160,14 @@ def metathesis_pairs(d):
     for anagrams in d.values():
         for word1 in anagrams:
             for word2 in anagrams:
-                if letter_difference(word1, word2) == 2:
+                if letter_difference(word1, word2) == 2:  # Looking for 2 different letters in both words
                     print(word1, word2)
 
 
 def letter_difference(word1, word2):
     count = 0
     for letter_word1, letter_word2 in zip(word1, word2):
-        if letter_word1 != letter_word2:
+        if letter_word1 != letter_word2:  # Computing the different letters in 2 words
             count += 1
 
     return count
