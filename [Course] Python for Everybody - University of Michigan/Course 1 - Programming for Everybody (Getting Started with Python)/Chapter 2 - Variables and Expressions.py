@@ -9,6 +9,7 @@
 
 
 # 2. In the following code,
+
 #    x = 42.
 #    What is "x"?
 
@@ -30,6 +31,7 @@
 
 # 5. Assume the variable x has been initialized to an integer value (e.g., x = 3). What does the
 #    following statement do?
+
 #    x = x + 2
 
 
@@ -49,6 +51,7 @@
 
 
 # 8. What will be the value of x after the following statement executes:
+
 #    x = 1 + 2 * 3 - 8 / 4
 
 
@@ -56,6 +59,7 @@
 
 
 # 9. What will be the value of x when the following statement is executed:
+
 #    x = int(98.6)
 
 
