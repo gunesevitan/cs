@@ -1,4 +1,4 @@
-#### This is the directory of exercise solutions and related files for the book "Think Python" by Allen B. Downey. ####
+#### This is the directory of exercise solutions and related files from the book "Think Python" by Allen B. Downey. ####
 
 
 
