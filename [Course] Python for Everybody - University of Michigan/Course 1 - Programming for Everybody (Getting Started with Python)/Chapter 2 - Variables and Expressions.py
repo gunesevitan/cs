@@ -1,4 +1,4 @@
-# Chapter Two Quiz
+# Chapter 2 Quiz
 
 
 # 1.
@@ -87,7 +87,7 @@ x = int(98.6)
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-# Chapter Two Assignments
+# Chapter 2 Assignments
 
 
 # Assignment 2.2

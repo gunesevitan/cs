@@ -1,4 +1,4 @@
-# Chapter One Quiz
+# Chapter 1 Quiz
 
 
 # 1.
@@ -71,7 +71,7 @@ print(x)
 # The computer did not understand the statement that you entered
 
 
-#10.
+# 10.
 # Which of the following is not one of the programming patterns covered in Chapter 1?
 
 
@@ -81,7 +81,7 @@ print(x)
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-# Chapter One Assignments
+# Chapter 1 Assignments
 
 
 # Assignment Write Hello World
