@@ -1,5 +1,6 @@
 # Chapter Two Quiz
 
+
 # 1.
 # Which of the following is a comment in Python?
 
@@ -52,6 +53,8 @@ x = x + 2
 # 7.
 # What is the value of the following expression
 
+42 % 10
+
 
 # 2
 
@@ -81,7 +84,7 @@ x = int(98.6)
 # Pause the program and read data from the user
 
 
-#-----------------------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------------------
 
 
 # Chapter Two Assignments
