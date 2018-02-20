@@ -1,3 +1,7 @@
+#### This is the directory of exercise solutions and related files for the book "Think Python" by Allen B. Downey. ####
+
+
+
 * Modules have exercises from the chapters.
 
 * "words.txt" is the word list used in the Chapter 9.
