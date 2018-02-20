@@ -66,52 +66,52 @@
 #    print('All done')
 
 
-#    Small
-#    All done
+# Small
+# All done
 
 
 # 8. For the following code,
 
-#    if x < 2 :
-#        print('Below 2')
-#    elif x >= 2 :
-#         print('Two or more')
-#    else :
-#        print('Something else')
+# if x < 2 :
+#     print('Below 2')
+# elif x >= 2 :
+#      print('Two or more')
+# else :
+#     print('Something else')
 
-#    What value of 'x' will cause 'Something else' to print out?
+#  What value of 'x' will cause 'Something else' to print out?
 
 
-#    This code will never print 'Something else' regardless of the value for 'x'
+# This code will never print 'Something else' regardless of the value for 'x'
 
 
 # 9. In the following code (numbers added) - which will be the last line to execute
-#    successfully?
+#  	 successfully?
 
-#    (1)   astr = 'Hello Bob'
-#    (2)   istr = int(astr)
-#    (3)   print('First', istr)
-#    (4)   astr = '123'
-#    (5)   istr = int(astr)
-#    (6)   print('Second', istr)
-
-
-#    1
+# (1)   astr = 'Hello Bob'
+# (2)   istr = int(astr)
+# (3)   print('First', istr)
+# (4)   astr = '123'
+# (5)   istr = int(astr)
+# (6)   print('Second', istr)
 
 
-# 10. For the following code:
-
-#     astr = 'Hello Bob'
-#     istr = 0
-#     try:
-#         istr = int(astr)
-#     except:
-#         istr = -1
-
-#     What will the value be for istr after this code executes?
+# 1
 
 
-#     -1
+# For the following code:
+
+# astr = 'Hello Bob'
+# istr = 0
+# try:
+#     istr = int(astr)
+# except:
+#     istr = -1
+
+#  What will the value be for istr after this code executes?
+
+
+# -1
 
 
 
