@@ -109,5 +109,3 @@ colon_position = text.find(':')
 num = text[colon_position + 1:].strip()
 
 print(float(num))
-
-

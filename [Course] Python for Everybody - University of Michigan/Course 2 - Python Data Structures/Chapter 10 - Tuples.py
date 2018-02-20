@@ -128,8 +128,4 @@ hours.sort()
 
 for key, val in hours:
     print(key, val)
-
-
-
-
-
+	
