@@ -1,110 +1,120 @@
-# Chapter Four Quiz
+# Chapter 4 Quiz
 
 
-
-# 1. Which Python keyword indicates the start of a function definition?
-
-
-#    def
+# 1.
+# Which Python keyword indicates the start of a function definition?
 
 
-# 2. In Python, how do you indicate the end of the block of code that makes up the function?
+# def
 
 
-#    You de-indent a line of code to the same indent level as the def keyword
+# 2.
+# In Python, how do you indicate the end of the block of code that makes up the function?
 
 
-# 3. In Python what is the input() feature best described as?
+# You de-indent a line of code to the same indent level as the def keyword
 
 
-#    A built-in function
+# 3.
+# In Python what is the input() feature best described as?
 
 
-# 4. What does the following code print out?
-
-#    def thing():
-#        print('Hello')
-#
-#    print('There')
+# A built-in function
 
 
-#    There
+# 4.
+# What does the following code print out?
+
+def thing():
+    print('Hello')
+
+print('There')
 
 
-# 5. In the following Python code, which of the following is an "argument" to a function?
-
-#    x = 'banana'
-#    y = max(x)
-#    print(y)
+# There
 
 
-#    x
+# 5.
+# In the following Python code, which of the following is an "argument" to a function?
+
+x = 'banana'
+y = max(x)
+print(y)
 
 
-# 6. What will the following Python code print out?
-
-#    def func(x) :
-#        print(x)
-#
-#    func(10)
-#    func(20)
+# x
 
 
-#    10, 20
+# 6.
+# What will the following Python code print out?
+
+def func(x) :
+    print(x)
+
+func(10)
+func(20)
 
 
-# 7. Which line of the following Python program will never execute?
-
-#    def stuff():
-#        print('Hello')
-#        return
-#        print('World')
-#
-#    stuff()
+# 10, 20
 
 
-#    print ('World')
+# 7.
+# Which line of the following Python program will never execute?
+
+def stuff():
+    print('Hello')
+    return
+    print('World')
+
+stuff()
 
 
-# 8. What will the following Python program print out?
-
-#    def greet(lang):
-#        if lang == 'es':
-#            return 'Hola'
-#        elif lang == 'fr':
-#            return 'Bonjour'
-#        else:
-#            return 'Hello'
-#
-#    print(greet('fr'),'Michael')
+# print ('World')
 
 
-#    Bonjour Michael
+# 8.
+# What will the following Python program print out?
+
+def greet(lang):
+    if lang == 'es':
+        return 'Hola'
+    elif lang == 'fr':
+        return 'Bonjour'
+    else:
+        return 'Hello'
+
+print(greet('fr'),'Michael')
 
 
-# 9. What does the following Python code print out? (Note that this is a bit of a trick question
-#    and the code has what many would consider to be a flaw/bug - so read carefully).
-
-#    def addtwo(a, b):
-#        added = a + b
-#        return a
-#
-#    x = addtwo(2, 7)
-#    print(x)
+# Bonjour Michael
 
 
-#    2
+# 9.
+# What does the following Python code print out? (Note that this is a bit of a trick question
+# and the code has what many would consider to be a flaw/bug - so read carefully).
+
+def addtwo(a, b):
+    added = a + b
+    return a
+
+x = addtwo(2, 7)
+print(x)
 
 
-# 10. What is the most important benefit of writing your own functions?
+# 2
 
 
-#     Avoiding writing the same non-trivial code more than once in your program
+# 10.
+# What is the most important benefit of writing your own functions?
 
 
+# Avoiding writing the same non-trivial code more than once in your program
 
-# Chapter Four Assignments
 
+# ----------------------------------------------------------------------------------------------------------------------
+
+
+# Chapter 4 Assignments
 
 
 # Assignment 4.6
