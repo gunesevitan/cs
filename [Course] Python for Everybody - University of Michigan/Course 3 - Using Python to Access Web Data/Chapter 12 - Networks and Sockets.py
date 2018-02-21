@@ -1,4 +1,4 @@
-# Chapter 12 Quiz
+# Chapter 12 - Networks and Sockets Quiz
 
 
 # 1.
@@ -79,7 +79,7 @@
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-# Chapter 12 Assignments
+# Chapter 12 - Networks and Sockets Assignments
 
 
 # Understanding the Request/Response Cycle

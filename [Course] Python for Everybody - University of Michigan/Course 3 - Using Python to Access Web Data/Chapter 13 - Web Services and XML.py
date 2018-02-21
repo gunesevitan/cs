@@ -1,4 +1,4 @@
-# Chapter 13 Quiz
+# Chapter 13 - Web Services and XML Quiz
 
 
 # 1.
@@ -110,7 +110,7 @@
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-# Chapter 13 Assignments
+# Chapter 13 - Web Services and XML Assignments
 
 
 # Extracting Data from XML

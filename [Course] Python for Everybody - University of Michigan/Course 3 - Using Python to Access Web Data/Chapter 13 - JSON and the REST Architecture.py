@@ -1,4 +1,4 @@
-# Chapter 13 Quiz
+# Chapter 13 - JSON and the REST Architecture Quiz
 
 
 # 1.
@@ -84,7 +84,7 @@
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-# Chapter 13 Assignments
+# Chapter 13 - JSON and the REST Architecture Assignments
 
 
 # Extracting Data from JSON

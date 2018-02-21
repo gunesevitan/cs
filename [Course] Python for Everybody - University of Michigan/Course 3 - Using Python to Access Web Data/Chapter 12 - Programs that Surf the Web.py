@@ -1,4 +1,4 @@
-# Chapter 12 Quiz
+# Chapter 12 - Programs that Surf the Web Quiz
 
 
 # 1.
@@ -108,7 +108,7 @@ x = soup('a')
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-# Chapter 12 Assignments
+# Chapter 12 - Programs that Surf the Web Assignments
 
 
 # Scraping HTML Data with BeautifulSoup
