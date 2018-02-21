@@ -1,4 +1,4 @@
-# Chapter 3 Quiz
+# Chapter 3 - Conditional Code Quiz
 
 
 # 1.
@@ -126,7 +126,7 @@ except:
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-# Chapter 3 Assignments
+# Chapter 3 - Conditional Code Assignments
 
 
 # Assignment 3.1

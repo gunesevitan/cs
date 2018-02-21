@@ -1,4 +1,4 @@
-# Chapter 2 Quiz
+# Chapter 2 - Variables and Expressions Quiz
 
 
 # 1.
@@ -87,7 +87,7 @@ x = int(98.6)
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-# Chapter 2 Assignments
+# Chapter 2 - Variables and Expressions Assignments
 
 
 # Assignment 2.2

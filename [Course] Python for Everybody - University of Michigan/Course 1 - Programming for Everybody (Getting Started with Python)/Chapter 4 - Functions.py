@@ -1,4 +1,4 @@
-# Chapter 4 Quiz
+# Chapter 4 - Functions Quiz
 
 
 # 1.
@@ -114,7 +114,7 @@ print(x)
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-# Chapter 4 Assignments
+# Chapter 4 - Functions Assignments
 
 
 # Assignment 4.6

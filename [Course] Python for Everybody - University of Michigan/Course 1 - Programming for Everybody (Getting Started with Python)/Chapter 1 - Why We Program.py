@@ -1,4 +1,4 @@
-# Chapter 1 Quiz
+# Chapter 1 - Why We Program Quiz
 
 
 # 1.
@@ -81,7 +81,7 @@ print(x)
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-# Chapter 1 Assignments
+# Chapter 1 - Why We Program Assignments
 
 
 # Assignment Write Hello World

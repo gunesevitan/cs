@@ -1,4 +1,4 @@
-# Chapter 5 Quiz
+# Chapter 5 - Loops and Iteration Quiz
 
 
 # 1.
@@ -109,7 +109,7 @@ print('Dry off!')
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-# Chapter 5 Assignments
+# Chapter 5 - Loops and Iteration Assignments
 
 
 # Assignment 5.2
