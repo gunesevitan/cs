@@ -1,4 +1,4 @@
-# Chapter 8 Quiz
+# Chapter 8 - Lists Quiz
 
 
 # 1.
@@ -92,7 +92,7 @@ print(friends[0])
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-# Chapter 8 Assignments
+# Chapter 8 - Lists Assignments
 
 
 # Assignment 8.4

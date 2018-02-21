@@ -1,4 +1,4 @@
-# Chapter 9 Quiz
+# Chapter 9 - Dictionaries Quiz
 
 
 # 1.
@@ -93,7 +93,7 @@ for y in x :
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-# Chapter 9 Assignments
+# Chapter 9 - Dictionaries Assignments
 
 
 # Assignment 9.4

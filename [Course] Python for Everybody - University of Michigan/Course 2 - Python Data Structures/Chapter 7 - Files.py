@@ -1,4 +1,4 @@
-# Chapter 7 Quiz
+# Chapter 7 - Files Quiz
 
 
 # 1.
@@ -106,7 +106,7 @@ inp = fhand.read()
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-# Chapter 7 Assignments
+# Chapter 7 - Files Assignments
 
 
 # Assignment 7.1

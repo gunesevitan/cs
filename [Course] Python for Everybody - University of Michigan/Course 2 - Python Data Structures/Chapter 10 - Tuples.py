@@ -1,4 +1,4 @@
-# Chapter 10 Quiz
+# Chapter 10 - Tuples Quiz
 
 
 # 1.
@@ -100,7 +100,7 @@ for k, v in c.items() :
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-# Chapter 10 Assignments
+# Chapter 10 - Tuples Assignments
 
 
 # Assignment 10.2

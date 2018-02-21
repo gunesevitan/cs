@@ -1,4 +1,4 @@
-# Chapter 6 Quiz
+# Chapter 6 - Strings Quiz
 
 
 # 1.
@@ -98,7 +98,7 @@ print(data[pos:pos+3])
 # ----------------------------------------------------------------------------------------------------------------------
 
 
-# Chapter 6 Assignments
+# Chapter 6 - Strings Assignments
 
 
 # Assignment 6.5
