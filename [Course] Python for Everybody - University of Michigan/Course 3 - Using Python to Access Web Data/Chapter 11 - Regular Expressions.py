@@ -106,11 +106,3 @@ for line in text:
             sum += int(number)
 
 print(sum)
-
-
-
-
-
-
-
-
