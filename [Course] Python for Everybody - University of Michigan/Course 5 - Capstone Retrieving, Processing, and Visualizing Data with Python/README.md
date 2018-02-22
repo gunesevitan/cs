@@ -1,9 +1,9 @@
-#### This is the directory of both capstone projects from the course "Capstone Retrieving, Processing, and Visualizing Data with Python" by University of Michigan. ####
+#### This is the directory of both capstone projects from the course "Capstone: Retrieving, Processing, and Visualizing Data with Python" by University of Michigan. ####
 
 
 * pagerank and gmane are the capstone projects.
 
-* Files contain set of programs for the project.
+* Files contain set of programs for the projects.
 
 ------------------------------------------------------------
 
