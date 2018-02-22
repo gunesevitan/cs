@@ -7,6 +7,11 @@
 
 ------------------------------------------------------------
 
+#### Course Certificate ####
+https://www.coursera.org/account/accomplishments/certificate/WUNNJYZ6BFTA
+
+------------------------------------------------------------
+
 These modules contain code from
 Python for Everybody by Charles Severance
 https://www.coursera.org/learn/python-data-visualization

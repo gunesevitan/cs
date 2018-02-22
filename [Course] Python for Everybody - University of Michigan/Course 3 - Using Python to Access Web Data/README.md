@@ -10,6 +10,11 @@
 
 ------------------------------------------------------------
 
+#### Course Certificate ####
+https://www.coursera.org/account/accomplishments/certificate/MC5MBKPEBLM6
+
+------------------------------------------------------------
+
 These modules contain code from
 Python for Everybody by Charles Severance
 https://www.coursera.org/learn/python-network-data

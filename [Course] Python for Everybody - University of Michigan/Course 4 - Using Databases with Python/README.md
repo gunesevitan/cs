@@ -15,6 +15,11 @@
 
 ------------------------------------------------------------
 
+#### Course Certificate ####
+https://www.coursera.org/account/accomplishments/certificate/K6FCWXXP7BPF
+
+------------------------------------------------------------
+
 These modules contain code from
 Python for Everybody by Charles Severance
 https://www.coursera.org/learn/python-databases
