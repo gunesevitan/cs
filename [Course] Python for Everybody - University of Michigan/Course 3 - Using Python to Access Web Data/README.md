@@ -1,4 +1,4 @@
-#### This is the directory of quiz answers, assignments and related files from the course "Using Python to Access Web Data" by University of Michigan. ####
+#### This is the directory of quiz answers, assignments and related files from the course "Using Python to Access Web Data" by University of Michigan on Coursera. ####
 
 
 

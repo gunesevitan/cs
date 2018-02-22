@@ -1,4 +1,4 @@
-#### This is the directory of quiz answers, assignments and related files from the course "Using Databases with Python" by University of Michigan. ####
+#### This is the directory of quiz answers, assignments and related files from the course "Using Databases with Python" by University of Michigan on Coursera. ####
 
 
 * Files have modules and related files for that chapter.

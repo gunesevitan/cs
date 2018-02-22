@@ -1,4 +1,4 @@
-#### This is the directory of quiz answers, assignments and related files from the course "Python Data Structures" by University of Michigan. ####
+#### This is the directory of quiz answers, assignments and related files from the course "Python Data Structures" by University of Michigan on Coursera. ####
 
 
 
