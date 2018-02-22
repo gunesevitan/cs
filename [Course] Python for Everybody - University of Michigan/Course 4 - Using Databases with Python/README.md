@@ -11,7 +11,7 @@
 
 * sqlite files are the product of the code.
 
-* In Chapter 16, where.data files is for parsing and where.html is for visualization.
+* In Chapter 16, where.data file is for parsing and where.html is for visualization.
 
 ------------------------------------------------------------
 
