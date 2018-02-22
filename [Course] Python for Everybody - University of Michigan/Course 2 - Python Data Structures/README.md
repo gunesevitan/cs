@@ -8,6 +8,11 @@
 
 ------------------------------------------------------------
 
+#### Course Certificate ####
+https://www.coursera.org/account/accomplishments/certificate/6MDWJMNXY8QV
+
+------------------------------------------------------------
+
 These modules contain code from
 Python for Everybody by Charles Severance
 https://www.coursera.org/learn/python-data
