@@ -89,7 +89,7 @@
 # Chapter 15 - Basic Structured Query Language Assignments
 
 
-# Extracting Data from XML
+# Counting Email in a Database
 
 
 import sqlite3
