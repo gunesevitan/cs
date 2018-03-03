@@ -9,8 +9,10 @@
  
  * a. Which processor has the highest performance expressed in instructions 
  * per second?
+ 
  * b. If the processors each execute a program in 10 seconds, find the number of
  * cycles and the number of instructions.
+ 
  * c. We are trying to reduce the execution time by 30% but this leads to an
  * increase of 20% in the CPI. What clock rate should we have to get this time
  * reduction?

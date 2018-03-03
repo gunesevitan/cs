@@ -9,6 +9,7 @@
  
  * a. What is the minimum size in bytes of the frame buffer 
  * to store a frame?
+ 
  * b. How long would it take, at a minimum, for the frame to be
  * sent over a 100 Mbit/s network?
  

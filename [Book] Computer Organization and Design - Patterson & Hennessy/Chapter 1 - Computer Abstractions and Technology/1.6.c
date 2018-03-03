@@ -13,6 +13,7 @@
  * and %20 class D, which is faster: P1 or P2?
  
  * a. What is the global CPI for each implementation?
+ 
  * b. Find the clock cycles required in both cases.
  
  
