@@ -1,9 +1,12 @@
 /*
 
- * 1.1
+ * 1.1:
+ 
  * Aside from the smart cell phones used by a billion people, list and 
  * describe four other types of computers.
  
+ 
+ * Answer:
  
  * Servers: They are large computers that allow various users to access 
  * software applications from any computer through a network. Also, servers 
