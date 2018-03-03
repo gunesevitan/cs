@@ -22,7 +22,8 @@
  * systems already installed into the base vehicle, such as lane departure systems and 
  * smart cruise control systems
  
- * Answer:
+ 
+ * Answer
  
  * a. Performance via Pipeline
  * b. Dependability
