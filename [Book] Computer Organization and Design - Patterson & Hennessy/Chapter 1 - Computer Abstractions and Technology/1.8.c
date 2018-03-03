@@ -10,12 +10,18 @@
  * of 0.9 V. Assume that, on average, it consumed 30 W of static power and 40 W of 
  * dynamic power.
  
- * a. For each processor find the average capacitive loads.
+ * 1.8.1
  
- * b. Find the percentage of the total dissipated power comprised by
+ * For each processor find the average capacitive loads.
+ 
+ * 1.8.2
+ 
+ * Find the percentage of the total dissipated power comprised by
  * static power and the ratio of static power to dynamic power for each technology
  
- * c. If the total dissipated power is to be reduced by 10%, how much 
+ * 1.8.3
+ 
+ * If the total dissipated power is to be reduced by 10%, how much 
  * should the voltage be reduced to maintain the same leakage current? 
  * Note: power is defined as the product of voltage and current.
  
@@ -29,7 +35,8 @@
  * The Core i5 Ivy Bridge
  * Clock Rate = 3.4 GHz | Voltage = 0.90 V | Static Power = 30 W | Dynamic Power = 40 W
   
- * a. 
+ * 1.8.1 
+ 
  * Capacitive Load = 2 * Power / (Voltage^2 * Clock Rate)
   
  * Pentium 4 Presscott
@@ -38,7 +45,8 @@
  * The Core i5 Ivy Bridge
  * Capacitive Load -> (2 * 40) / (3.4 GHz * 10^9 * 0.90^2 V ) = 2.9 * 10^-8
   
- * b. 
+ * 1.8.2 
+ 
  * Total Dissipated Power = Static Power + Dynamic Power
  
  * Pentium 4 Presscott 
@@ -49,7 +57,8 @@
  * Total Dissipated Power -> 30 Static Power + 40 Dynamic Power = 70
  * Ratio of Static Power to Dynamic Power -> 3/4
  
- * c.
+ * 1.8.3
+ 
  * Pentium 4 Presscott 
  * New Total Dissipated Power -> 0.9 * (10 Static Power + 90 Dynamic Power) = 90
  * New Static Power = 9 W | New Dynamic Power = 81 W
