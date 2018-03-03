@@ -2,7 +2,7 @@
 
 
 
-* Files have answers of the Exercises.
+* C Files have answers of the Exercises.
 
 ------------------------------------------------------------
 
