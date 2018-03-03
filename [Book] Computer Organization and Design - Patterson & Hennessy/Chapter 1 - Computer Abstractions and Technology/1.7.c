@@ -15,9 +15,9 @@
  * processor running compiler A’s code versus the clock of the processor running 
  * compiler B’s code?
  
-  * c. A new compiler is developed that uses only 6.0E8 instructions and has an 
-  * average CPI of 1.1. What is the speedup of using this new compiler versus using
-  * compiler A or B on the original processor?
+ * c. A new compiler is developed that uses only 6.0E8 instructions and has an 
+ * average CPI of 1.1. What is the speedup of using this new compiler versus using
+ * compiler A or B on the original processor?
  
  
  * Answer
@@ -49,5 +49,5 @@
  
  * Execution Time B / Execution Time C = 1.5 / 0.66 = 2.27
  * Execution Time A / Execution Time C = 1.1 / 0.66 = 1.67
-
+ 
  */
