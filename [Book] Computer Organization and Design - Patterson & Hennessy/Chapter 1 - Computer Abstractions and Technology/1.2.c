@@ -2,6 +2,7 @@
 
  * 1.2
  
+ 
  * The eight great ideas in computer architecture are similar to ideas
  * from other fields. Match the eight ideas from computer architecture,
  * “Design for Moore’s Law”, “Use Abstraction to Simplify Design”, “Make
@@ -24,6 +25,7 @@
  
  
  * Answer
+ 
  
  * a. Performance via Pipeline
  * b. Dependability
