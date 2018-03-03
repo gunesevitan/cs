@@ -2,9 +2,9 @@
 
 
 
-* Files have chapters in the book.
+* Directories have chapters in the book.
 
-* Chapters have answers of the exercises in that chapter.
+* Inside the directories there are answers of the exercises' in that chapter.
 
 ------------------------------------------------------------
 
