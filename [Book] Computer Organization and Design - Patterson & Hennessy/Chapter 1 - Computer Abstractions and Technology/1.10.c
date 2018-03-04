@@ -40,6 +40,8 @@
   
  * 1.10.1
  
+ * Find the yield for both wafers
+ 
  * Wafer 1 -> 7.5^2 (r^2) * pi / 84 = 2.10 cm^2 Die Area
  * Wafer 2 -> 10^2 (r^2) * pi / 100 = 3.14 cm^2 Die Area
  
@@ -48,11 +50,16 @@
  
  * 1.10.2 
  
+ * Find the cost per good die for both wafers.
+ 
  * Wafer 1 -> 12 Wafer Cost / 84 Dies per Wafer * 0.959 Yield = 0.136
  * Wafer 2 -> 15 Wafer Cost / 100 Dies per Wafer * 0.909 Yield = 0.136
 
  
  * 1.10.3
+ 
+ * If the number of dies per wafer is increased by 10% and the defects per area
+ * unit increases by 15%, find the die area and yield.
  
  * Wafer 1 -> 84 * 1.1 (%10 increase) = 92 New Dies per Wafer 
  * Wafer 2 -> 100 * 1.1 (%10 increase)= 110 New Dies per Wafer 
@@ -67,6 +74,10 @@
  * Wafer 2 -> 1 / (1 + (0.035 Defects/cm^2 * 2.86 cm^2 / 2))^2 = 90.7% New Yield
  
  * 1.10.4
+ 
+ * Assume a fabrication process improves the yield from 0.92 to 0.95. Find the 
+ * defects per area unit for each version of the technology given a die area 
+ * of 200 mm^2.
  
  * New Die Area = 2 cm^2
  * Technology 1 Yield = 0.92

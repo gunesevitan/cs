@@ -45,6 +45,10 @@
   
  * 1.9.1
  
+ * Find the total execution time for this program on 1, 2, 4, and 8 processors, 
+ * and show the relative speedup of the 2, 4, and 8 processor result relative to the
+ * single processor result.
+ 
  * Execution Time = (Instructions * CPI) / Clock Rate
  
  * 1 Processor
@@ -73,6 +77,9 @@
   
  * 1.9.2 
  
+ * If the CPI of the arithmetic instructions was doubled, what would the impact be
+ * on the execution time of the program on 1, 2, 4, or 8 processors?
+ 
  * 1 Processor
  * Arithmetic Instructions -> (2.56E9 Instructions * 2 CPI) / 2E9 GHz = 2.56 s
  * Load/Store Instructions -> (1.28E9 Instructions * 12 CPI) / 2E9 GHz = 7.68 s
@@ -98,6 +105,9 @@
  * Total Time with 8 Processor = 2.47 s
  
  * 1.9.3
+ 
+ * To what should the CPI of load/store instructions be reduced in order for a single
+ * processor to match the performance of four processors using the original CPI values?
  
  * 1 Processor
  * Arithmetic Instructions -> (2.56E9 Instructions * 1 CPI) / 2E9 GHz = 1.28 s

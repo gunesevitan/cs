@@ -17,7 +17,7 @@
  * 1.8.2
  
  * Find the percentage of the total dissipated power comprised by
- * static power and the ratio of static power to dynamic power for each technology
+ * static power and the ratio of static power to dynamic power for each technology.
  
  * 1.8.3
  
@@ -37,6 +37,8 @@
   
  * 1.8.1 
  
+ * For each processor find the average capacitive loads.
+ 
  * Capacitive Load = 2 * Power / (Voltage^2 * Clock Rate)
   
  * Pentium 4 Presscott
@@ -46,6 +48,9 @@
  * Capacitive Load -> (2 * 40) / (3.4 GHz * 10^9 * 0.90^2 V ) = 2.9 * 10^-8
   
  * 1.8.2 
+ 
+ * Find the percentage of the total dissipated power comprised by
+ * static power and the ratio of static power to dynamic power for each technology.
  
  * Total Dissipated Power = Static Power + Dynamic Power
  
@@ -58,6 +63,10 @@
  * Ratio of Static Power to Dynamic Power -> 3/4
  
  * 1.8.3
+ 
+ * If the total dissipated power is to be reduced by 10%, how much 
+ * should the voltage be reduced to maintain the same leakage current? 
+ * Note: power is defined as the product of voltage and current.
  
  * Pentium 4 Presscott 
  * New Total Dissipated Power -> 0.9 * (10 Static Power + 90 Dynamic Power) = 90
