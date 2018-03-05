@@ -4,7 +4,7 @@
  
  
  * For the MIPS assembly instructions in Exercise 2.4, rewrite the assembly code
- * to minimize the number  MIPS instructions (if possible) needed to carry out
+ * to minimize the number of MIPS instructions (if possible) needed to carry out
  * the same function.
   
  */
@@ -21,3 +21,7 @@ lw  	$s0, 0($t0) 	# f = A[f]
 lw  	$t0, 4($t2) 	# $t0 = A[f + 1]
 add 	$t0, $t0, $s0	# $t0 = A[f + 1] + A[f]
 sw  	$t0, 0($t1) 	# B[g] = $t0
+
+# These lines are rewritten.
+addi	$t2, $t0, 4 	# A[f + 1]
+lw  	$t0, 0($t2) 	# $t0 = A[f + 1]
