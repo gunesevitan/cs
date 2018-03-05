@@ -1,5 +1,4 @@
-# 2.5
- 
+# 2.5 
  
 # For the MIPS assembly instructions in Exercise 2.4, rewrite the assembly code
 # to minimize the number of MIPS instructions (if possible) needed to carry out

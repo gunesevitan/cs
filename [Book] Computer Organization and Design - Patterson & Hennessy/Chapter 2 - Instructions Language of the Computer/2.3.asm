@@ -1,6 +1,5 @@
 # 2.3 
  
- 
 # For the following C statement, what is the corresponding
 # MIPS assembly code? Assume that the variables f, g, h, i,
 # and j are assigned to registers $s0, $s1, $s2, $s3, and

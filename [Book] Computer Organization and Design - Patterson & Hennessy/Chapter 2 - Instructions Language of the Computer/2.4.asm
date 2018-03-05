@@ -1,5 +1,4 @@
-# 2.4 
- 
+# 2.4  
  
 # For the MIPS assembly instructions below, what is the 
 # corresponding C statement? Assume that the variables 
