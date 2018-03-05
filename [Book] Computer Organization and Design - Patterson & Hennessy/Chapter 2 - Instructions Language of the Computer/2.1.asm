@@ -22,4 +22,4 @@
 # s -> $s1
 
 addi	$t0, $t0, -5	# h = h - 5
-add		$s1, $t1, $t0	# f = g + h
+add 	$s1, $t1, $t0	# f = g + h
