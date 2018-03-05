@@ -1,18 +1,14 @@
-/*
-
- * 2.3 
+# 2.3 
  
  
- * For the following C statement, what is the corresponding
- * MIPS assembly code? Assume that the variables f, g, h, i,
- * and j are assigned to registers $s0, $s1, $s2, $s3, and
- * $s4, respectively. Assume that the base address of the arrays
- * A and B are in registers $s6 and $s7, respectively.
+# For the following C statement, what is the corresponding
+# MIPS assembly code? Assume that the variables f, g, h, i,
+# and j are assigned to registers $s0, $s1, $s2, $s3, and
+# $s4, respectively. Assume that the base address of the arrays
+# A and B are in registers $s6 and $s7, respectively.
  
- * B[8] = A[i-j];
+# B[8] = A[i-j];
  
- */
-
 
 # Answer
 

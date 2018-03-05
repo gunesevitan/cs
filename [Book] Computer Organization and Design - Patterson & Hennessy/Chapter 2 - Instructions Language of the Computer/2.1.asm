@@ -1,18 +1,13 @@
-/*
-
- * 2.1 
+# 2.1  
  
+# For the following C statement, what is the corresponding
+# MIPS assembly code? Assume that the variables f, g, h , 
+# and i are given and could be considered 32-bit integers 
+# as declared in a C program. Use a minimal number of MIPS
+# assembly instructions. 
  
- * For the following C statement, what is the corresponding
- * MIPS assembly code? Assume that the variables f, g, h , 
- * and i are given and could be considered 32-bit integers 
- * as declared in a C program. Use a minimal number of MIPS
- * assembly instructions. 
+# f = g + (h – 5);
  
- * f = g + (h – 5);
- 
- */
-
 
 # Answer
 

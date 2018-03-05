@@ -1,7 +1,6 @@
 /*
 
- * 1.4
- 
+ * 1.4 
  
  * Assume a color display using 8 bits for each of the
  * primary colors (red, green, blue) per pixel and a frame

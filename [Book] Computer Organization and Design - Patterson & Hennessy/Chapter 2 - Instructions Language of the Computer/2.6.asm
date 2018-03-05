@@ -1,10 +1,23 @@
-# 2.5
+/*
+
+ * 2.6
  
  
-# For the MIPS assembly instructions in Exercise 2.4, rewrite the assembly code
-# to minimize the number of MIPS instructions (if possible) needed to carry out
-# the same function.
+ * The table below shows 32-bit values of an array stored in memory.
+ 
+ * Address | Data
+ *   24    |  2
+ *   38    |  4
+ *   32    |  3
+ *   36    |  6
+ *   40    |  1
+ 
+ * 2.6.1
+ 
+ 
   
+ */
+
 
 # Answer
 

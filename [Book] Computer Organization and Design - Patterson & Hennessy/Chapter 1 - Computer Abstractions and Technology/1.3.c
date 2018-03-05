@@ -1,7 +1,6 @@
 /*
 
- * 1.3
- 
+ * 1.3 
  
  * Describe the steps that transform a program written in a
  * high-level language such as C into a representation that is

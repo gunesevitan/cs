@@ -1,7 +1,6 @@
 /*
 
- * 1.15
- 
+ * 1.15 
  
  * When a program is adapted to run on multiple processors in a multiprocessor
  * system, the execution time on each processor is comprised of computing time
@@ -17,6 +16,7 @@
  
  
  * Answer
+ 
  
  * Processor 1 | Time 100 s | Time with Overhead 100 s| Speed Up 1.0 | Ideal Speed Up 1.0
  * Processor 2 | Time 50 s | Time with Overhead 54 s| Speed Up 1.85 | Ideal Speed Up 2.0

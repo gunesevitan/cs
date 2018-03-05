@@ -1,7 +1,6 @@
 /*
 
- * 1.1 
- 
+ * 1.1  
  
  * Aside from the smart cell phones used by a billion people, list and 
  * describe four other types of computers.
