@@ -3,10 +3,10 @@
 # Consider the following MIPS loop:
 
 LOOP:slt $t2, $0, $t1
-	beq $t2, $0, DONE
-	subi $t1, $t1, 1
-	addi $s2, $s2, 2
-	j LOOP
+ beq $t2, $0, DONE
+ subi $t1, $t1, 1
+ addi $s2, $s2, 2
+ j LOOP
 DONE:
 
 # 2.26.1
@@ -37,9 +37,8 @@ $s2 = 20
 # 2.26.2
 
 while(i > 0){
-	i = i - 1
-	B = B + 2
-
+ i = i - 1
+ B = B + 2
 }
 
 # 2.26.3
