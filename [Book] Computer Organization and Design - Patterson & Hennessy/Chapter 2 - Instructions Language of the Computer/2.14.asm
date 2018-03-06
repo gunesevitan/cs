@@ -7,7 +7,7 @@
 # Answer
 
 
-# opcode	|	rs	|	rt	|	rd	|	shamt	|	funct
-# 000000	  10000   10000   10000     00000		100000
+# opcode | rs | rt | rd | shamt | funct
+# 000000 10000 10000 10000 00000 100000
 	
 add  $s0, $s0, $s0	# R-type add instruction
