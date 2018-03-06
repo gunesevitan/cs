@@ -23,8 +23,8 @@
 
 # 2.25.2
 
-Loop:slt$t3, $0, $t2
-	beq	$t3, $0, DONE
-	sub	$t2, $t2, 1
-	j	Loop
+Loop:slt $t3, $0, $t2
+ beq $t3, $0, DONE
+ sub $t2, $t2, 1
+ j Loop
 DONE:
