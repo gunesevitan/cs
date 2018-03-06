@@ -25,5 +25,14 @@
 
 # 2.18.1
 
-# opcode | rs | rt | rd | shamt | funct
-# 	20  	7	7	 7  	3		20 Bits
+# opcode (20) | rs (7) | rt (7) | rd (7) | shamt (3) | funct (20)
+
+# 2.18.2
+
+# opcode (20) | rs (7) | rt (7) | rd (7) | constant (23)
+
+# 2.18.3
+
+# I think the instructions would be decoded much slower but there would be fewer
+# load/store instructions because there are 128 registers. The reallocation
+# of the registers wouldn't be necessary in many cases.
