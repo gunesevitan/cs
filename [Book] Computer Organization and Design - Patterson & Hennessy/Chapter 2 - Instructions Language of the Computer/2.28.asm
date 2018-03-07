@@ -1,4 +1,4 @@
-# 2.27
+# 2.28
  
 # How many MIPS instructions does it take to implement the C code
 # from exercise 27? If the variables a and b are initialized to 10 
@@ -10,5 +10,4 @@
 
   
 # There are 14 total instructions in the implementation.
-# 153 instructions will be executed with a = 10, b = 1.   
-  
+# 153 instructions will be executed with a = 10, b = 1.  
