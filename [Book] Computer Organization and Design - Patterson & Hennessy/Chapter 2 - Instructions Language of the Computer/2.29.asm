@@ -5,7 +5,7 @@
 # and $s0 holds the base address of the integer MemArray.
 
 	addi $t1, $0, $0
-LOOP:lw $s1, 0($s0)
+LOOP: lw $s1, 0($s0)
 	add $s2, $s2, $s1
 	addi $s0, $s0, 4
 	addi $t1, $t1, 1
@@ -17,6 +17,6 @@ LOOP:lw $s1, 0($s0)
 
   
 # while(i < 100){
-#  result += MemArray[i];
-#  i++;
+# 	result += MemArray[i];
+# 	i++;
 # }

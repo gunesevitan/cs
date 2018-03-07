@@ -10,4 +10,5 @@
 
   
 # There are 14 total instructions in the implementation.
+# Instruction -> 3 + a * (4 + (3 + b * 8)) = 153
 # 153 instructions will be executed with a = 10, b = 1.  
