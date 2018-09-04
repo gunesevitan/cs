@@ -1,8 +1,8 @@
-#### This is the directory of quiz answers, assignments and related files from the course "Programming Fundamentals" by Duke University on Coursera. ####
+#### This is the directory of quiz answers and assignments from the course "Programming Fundamentals" by Duke University on Coursera. ####
 
 
 
-* Modules have quiz answers and assignment solutions from the chapters.
+* C files have quiz answers and assignment solutions from the each week.
 
 ------------------------------------------------------------
 
