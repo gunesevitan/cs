@@ -2,7 +2,7 @@
 
 
 
-* C files have quiz answers and assignment solutions from the each week.
+* C files have quiz answers and assignment solutions from each week.
 
 ------------------------------------------------------------
 
