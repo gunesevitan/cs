@@ -2,11 +2,13 @@
 
 
 
-* C files have quiz answers and assignment solutions from each week.
+* Directories have the assignment solutions from the course.
+* C files have quiz answers from each week.
 
 ------------------------------------------------------------
 
 #### Course Certificate ####
+https://www.coursera.org/account/accomplishments/certificate/2VC5SWFULZ35
 
 ------------------------------------------------------------
 
