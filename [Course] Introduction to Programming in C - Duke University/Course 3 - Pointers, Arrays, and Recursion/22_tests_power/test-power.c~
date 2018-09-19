@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+unsigned power(unsigned x, unsigned y);
+
+void test_power(unsigned int base, unsigned int exponent, unsigned int answer){  
+  if(power(base, exponent) == answer){    
+    exit(EXIT_FAILURE);    
+  }  
+}
+
+int main(){  
+  test_power(5,0,1);
+ 
+  exit(EXIT_SUCCESS);  
+}
