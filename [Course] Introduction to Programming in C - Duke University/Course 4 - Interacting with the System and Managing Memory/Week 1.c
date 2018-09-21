@@ -159,3 +159,45 @@ Of the input.
 
 
 // hu lehtwsl vm aol puwba.
+
+
+// Week 1 - Practice Quiz: Writing and Closing Files
+
+
+// 1.
+// Suppose that you write the following line of code:
+
+FILE * f = fopen("myfile.txt", "w");
+
+// Which of the following operations could you do successfully to f? (Select all that apply.)
+
+
+// fclose
+// fprintf
+
+
+// 2.
+// Which of the following accurately describes the similarities and differences between fputs 
+// and fprintf?
+
+
+// Both fputs and fprintf write strings to files. However, fprintf performs %-format
+// conversion, while fputs does not.
+
+
+// 3.
+// Suppose your program opens a file, writes a lot of data into it, and then closes the file.
+
+// If there is not enough space on the disk for all the data that you wrote, at what point is your 
+// program guaranteed to know about the problem?
+
+
+// When fclose returns.
+
+
+// 4.
+// UNIX and Linux simplify interaction with the outside world by (as much as possible) making
+// everything look like a(n):
+
+
+// File
