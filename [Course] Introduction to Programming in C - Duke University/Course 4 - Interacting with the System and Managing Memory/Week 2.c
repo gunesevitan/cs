@@ -75,6 +75,40 @@ free(ptr);
 // Nothing
 
 
+// Week 2 - Practice Quiz: realloc
+
+
+// 1.
+// What does realloc do?
+
+
+// Resizes a previously allocated block.
+
+
+// 2.
+// Suppose you had the following code:
+
+int * p = malloc(12*sizeof(*p));
+char * q = malloc(14*sizeof(*q));
+char * m = q;
+q++;
+int ** ptr= &p;
+
+// Which of the pointers in the above code could be passed as the first argument to a call to 
+// realloc? (Select all that apply.)
+
+
+// p
+// m
+
+
+
+
+
+
+
+
+
 
 
 
