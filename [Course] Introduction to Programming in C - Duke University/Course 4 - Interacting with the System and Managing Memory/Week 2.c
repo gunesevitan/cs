@@ -102,11 +102,76 @@ int ** ptr= &p;
 // m
 
 
+// Week 2 - Practice Quiz: getline
 
 
+// 1.
+// Suppose you have the following code: 
+
+size_t sz = 4; 
+char * line = NULL;
+getline(&line, &sz, stdin);
+
+// Which one of the following describes what the getline call on line 3 will do?
 
 
+// malloc an implementation-specific amount of space.
 
+
+// 2.
+// Suppose you have the following code (which is very slightly different from Q1's code):
+
+size_t sz = 4; 
+char * line = malloc(42 * sizeof(*line));
+getline(&line, &sz, stdin);
+
+// What will the call to getline on line 3 assume about the amount of space it has available to 
+// read characters from stdin into?
+
+
+// It will assume that there are at least 4 bytes.
+
+
+// 3.
+// Suppose you have the following code (which is very slightly different from the previous 
+// questions' code):
+
+size_t sz = 0; 
+char * line = NULL;
+getline(&line, &sz, stdin);
+
+// Further suppose that when your program calls getline, the user enters
+
+Hello
+
+
+// (including the newline character).
+
+// Which of the following will be true of sz after the call to getline returns?
+
+
+// sz will be at least 7
+
+
+// 4.
+// In the same situation as Question 3, where you have this code:
+
+size_t sz = 0 ; 
+char * line = NULL;
+getline(&line, &sz, stdin);
+
+// and the user enters
+
+Hello
+
+
+// (including the newline character).
+
+// Which of the following is true of line after the call to getline returns?
+
+
+// linewill point at an array malloced to hold sz chars with 'H' 'e' 'l' 'l' 'o' '\n' '\0' in the
+// first 7 characters. The value of any remaining elements of the array are undefined.
 
 
 
