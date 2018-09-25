@@ -1,7 +1,10 @@
 #### Week One Quiz ####
 
 
+
+
 1. Python is an example of an
+
 	Interpreted language
 
 
