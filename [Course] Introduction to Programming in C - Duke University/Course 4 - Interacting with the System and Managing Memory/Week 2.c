@@ -174,9 +174,91 @@ Hello
 // first 7 characters. The value of any remaining elements of the array are undefined.
 
 
+// Week 2 - Practice Quiz: Valgrind's Memcheck
 
 
+// 1.
+// A C programmer wrote the following code to try to read in many lines of numbers, sort them,
+// and print the results. However, this code has a variety of memory-related errors.
+
+#include <stdio.h>
+#include <stdlib.h>
+int cmplong(const void * vp1, const void * vp2) {
+  const long * p1 = vp1;
+  const long * p2 = vp2;
+  return *p1 - *p2;
+}
+int main(void) {
+  char * line= NULL;
+  size_t sz =0;
+  long * array = NULL;
+  size_t n = 0;
+  while(getline(&line, &sz, stdin) > 0){
+    n++;
+    array=realloc(array, n * sizeof(*array));
+    array[n] = strtol(line, NULL, 0);
+  }
+  free(line);
+  qsort(&array, n, sizeof(*array), cmplong);
+  for (size_t i = 0; i < n; i++) {
+    printf("%ld\n", array[i]);
+    free(&array[i]);
+  }
+  return EXIT_SUCCESS;
+}
+
+// When the programmer runs this code in valgrind, the first error is
+
+Invalid write of size 8
+at 0x400788: main (broken.c:16)
+Address 0x51fc108 is 0 bytes after a block of size 8 alloc'd
+at 0x4C2AB80: malloc (in ...)
+by 0x4C2CF1F: realloc (in ...)
+by 0x400759: main (broken.c:15)
+
+// Which one of the following best describes the invalid behavior that Valgrind has observed?
 
 
+// Line 16 of this program attempted to write 8 bytes into an invalid memory location
 
 
+// 2.
+// In the previous question, the last part of valgrind's error message says:
+
+Address 0x51fc108 is 0 bytes after a block of size 8 alloc'd
+at 0x4C2AB80: malloc (in ...)
+by 0x4C2CF1F: realloc (in ...)
+by 0x400759: main (broken.c:15)
+
+// Valgrind not only reported that the invalid address was 0x51fc108, but that it was "0 bytes 
+// after a block of size 8 alloc'd..."
+
+// What information is Valgrind providing with this part of the error message?
+
+
+// The invalid address was immediately after a block of size 8 that was allocated by a 
+// call to realloc on line 15 of this program.
+
+
+// 3.
+// Based on the information you gained from Valgrind, what would you change about this 
+// program to fix the error discussed in the previous two questions?
+
+
+// Change line 16 to:
+array[n-1] = strtol(line, NULL, 0);
+
+
+// 4.
+// There are three other errors that Valgrind will identify with the code above. We encourage you
+// to take a a few minutes to use Valgrind in the PPE to find and identify these errors as it is
+// great practice with Valgrind.
+
+// Run the code in valgrind, think about what it says, identify and repair the error, then run the
+// program again in Valgrind. Once you have fixed all the errors, the program should work 
+// correctly. It may help to draw some pictures of what the code is doing!
+
+// How many errors were you able to find?
+
+
+// 3
