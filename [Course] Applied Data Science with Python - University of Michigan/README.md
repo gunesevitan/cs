@@ -4,7 +4,7 @@
 
 * Files have the courses in the specialization.
 
-* Courses have each week's quiz and assignment.
+* Courses have each week's notes, quiz and assignments.
 
 ------------------------------------------------------------
 

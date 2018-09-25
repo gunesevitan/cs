@@ -1,4 +1,4 @@
-#### This is the directory of quiz answers and assignments from the course "Introduction to Data Science in Python" by University of Michigan on Coursera. ####
+#### This is the directory of notes, quiz answers and assignments from the course "Introduction to Data Science in Python" by University of Michigan on Coursera. ####
 
 
 
