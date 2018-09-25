@@ -2,7 +2,8 @@
 
 
 
-* ipynb files have notes, quiz answers and assignments from each week.
+* ipynb files have notes and assignments from each week.
+* py files have quiz answers from each week.
 
 ------------------------------------------------------------
 
