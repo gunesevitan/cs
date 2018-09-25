@@ -2,9 +2,7 @@
 
 
 1. Python is an example of an
-
-
-Interpreted language
+	Interpreted language
 
 
 2. Data Science is a
