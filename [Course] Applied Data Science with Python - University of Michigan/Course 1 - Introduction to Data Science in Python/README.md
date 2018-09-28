@@ -8,6 +8,7 @@
 ------------------------------------------------------------
 
 #### Course Certificate ####
+https://www.coursera.org/account/accomplishments/certificate/BC54T6TVQYSY
 
 ------------------------------------------------------------
 
