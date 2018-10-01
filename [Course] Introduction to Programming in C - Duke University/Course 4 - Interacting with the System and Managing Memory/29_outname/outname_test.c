@@ -1,9 +1,8 @@
 #include "outname.h"
 #include <stdio.h>
 #include <stdlib.h>
-
-
 #define NUM_TESTS 3
+
 int main(void) {
   char * testNames[NUM_TESTS] = {"input.txt",
 				 "anotherTestFileName.txt",

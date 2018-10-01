@@ -18,9 +18,9 @@ void sortData(char ** data, size_t count) {
 
 int main(int argc, char ** argv) {
   
-  if(argc==1) {    
+  if(argc == 1) {    
     FILE * f = stdin;    
-    if (f==NULL) {      
+    if (f == NULL) {      
       fprintf(stderr, "Failed to open file from stdin\n");      
       return EXIT_FAILURE;      
     }
@@ -61,16 +61,16 @@ int main(int argc, char ** argv) {
       perror("Failed to close the file!");      
       return EXIT_FAILURE;      
     }    
-  }  
-  else {    
+  } else {
+	  
     size_t i = 1;
     
     while (i < argc) {      
       FILE * f = fopen(argv[i], "r");
       
       if (f == NULL) {	
-	fprintf(stderr, "Failed to open file: %s\n", argv[i]);	
-	return EXIT_FAILURE;	
+		fprintf(stderr, "Failed to open file: %s\n", argv[i]);	
+		return EXIT_FAILURE;	
       }
       
       size_t j = 0;      
@@ -79,16 +79,16 @@ int main(int argc, char ** argv) {
       size_t sz = 0;
       
       while(getline(&line, &sz, f) >= 0) {	
-	lines = realloc(lines, (j + 1) * sizeof(*lines));	
-	lines[j] = line;	
-	line = NULL;	
-	j++;	
+		lines = realloc(lines, (j + 1) * sizeof(*lines));	
+		lines[j] = line;	
+		line = NULL;	
+		j++;	
       }      
       free(line);
           
       if (j == 0) {	
-	fprintf(stderr, "File (%s) must contain at least one line of text.\n", argv[i]);	
-	return EXIT_FAILURE;	
+		fprintf(stderr, "File (%s) must contain at least one line of text.\n", argv[i]);	
+		return EXIT_FAILURE;	
       }
       
       sortData(lines, j);   
@@ -96,19 +96,18 @@ int main(int argc, char ** argv) {
       int k;
       
       for (k = 0; k < j; k++) {	
-	printf("%s\n", lines[k]);	
+		printf("%s\n", lines[k]);	
       }           
       
       for (k = 0; k < j; k++) {	
-	free(lines[k]);	
-      }
-            
+		free(lines[k]);	
+      }            
       free(lines);      
       i++;
       
       if (fclose(f) != 0) {	
-	perror("Failed to close the file!");	
-	return EXIT_FAILURE;	
+		perror("Failed to close the file!");	
+		return EXIT_FAILURE;	
       }      
     }    
   }    

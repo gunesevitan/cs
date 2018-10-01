@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "counts.h"
+
 counts_t * createCounts(void) {
   counts_t * c = malloc(sizeof(*c));  
   c->one_count_array = malloc(sizeof(c->one_count_array));  
@@ -10,26 +11,25 @@ counts_t * createCounts(void) {
   
   return c;
 }
+
 void addCount(counts_t * c, const char * name) {
   
   if (name == NULL) {    
     c->n++;    
-  }  
-  else {    
+  } else {    
     int in = 0;    
     int i;
     
     for (i = 0; i < c->len; i++) {      
       if (strcmp(name, c->one_count_array[i]->str) == 0) {	
-	in = 1;	
-	break; 	
+		in = 1;	
+		break; 	
       }      
     }
     
     if (in == 1) {      
       c->one_count_array[i]->count++;      
-    }    
-    else {      
+    } else {      
       c->len++;      
       c->one_count_array = realloc(c->one_count_array, c->len * sizeof(*c->one_count_array));      
       c->one_count_array[c->len - 1] = malloc(sizeof(one_count_t));      
@@ -38,10 +38,12 @@ void addCount(counts_t * c, const char * name) {
     }    
   }
 }
+
 void printCounts(counts_t * c, FILE * outFile) {
   for (int i = 0; i < c->len; i++) {    
     fprintf(outFile, "%s: %d\n", c->one_count_array[i]->str, c->one_count_array[i]->count);    
-  }  
+  }
+  
   if (c->n > 0) {    
     fprintf(outFile, "<unknown> : %d\n", c->n);    
   }

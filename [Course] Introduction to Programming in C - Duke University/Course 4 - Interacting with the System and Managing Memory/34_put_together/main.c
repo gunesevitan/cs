@@ -76,8 +76,7 @@ int main(int argc, char ** argv) {
       perror("fclose");      
       fprintf(stderr, "Could not close %s\n", outName);      
       exit(EXIT_FAILURE);      
-    }    
-        
+    }          
     free(outName);    
     freeCounts(c);    
   } 

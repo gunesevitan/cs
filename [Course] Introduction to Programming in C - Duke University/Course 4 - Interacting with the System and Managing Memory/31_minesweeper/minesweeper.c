@@ -14,7 +14,6 @@
 
 #define IS_MINE(x) ((x) == HAS_MINE || (x) == KNOWN_MINE)
 
-
 struct _board_t {
   int ** board;
   int width;
@@ -66,34 +65,35 @@ board_t * makeBoard(int w, int h, int numMines) {
 }
 void printBoard(board_t * b) {    
   int found = 0;
-  printf("    ");
+  
+  printf("    ");  
   for (int x = 0; x < b->width; x++) {
     printf("%d",x/10);
   }
+  
   printf("\n    ");
   for (int x = 0; x < b->width; x++) {
     printf("%d",x%10);
   }
+  
   printf("\n----");
   for (int x = 0; x < b->width; x++) {
     printf("-");
   }
+  
   printf("\n");
   for (int y = 0; y < b->height; y++) {
     printf("%2d: ", y %100);
     for (int x = 0; x < b->width; x++) {
       if (b->board[y][x] == KNOWN_MINE) {
-	printf("*");
-	found++;
-      }
-      else if (b->board[y][x] < 0) {
-	printf("?");
-      }
-      else if (b->board[y][x] == 0) {
-	printf(" ");
-      }
-      else {
-	printf("%d", b->board[y][x]);
+	    printf("*");
+		found++;
+      } else if (b->board[y][x] < 0) {
+		printf("?");
+      } else if (b->board[y][x] == 0) {
+		printf(" ");
+      } else {
+		printf("%d", b->board[y][x]);
       }
     }
     printf("\n");
@@ -108,12 +108,14 @@ void printBoard(board_t * b) {
   for (int x = 0; x < b->width; x++) {
     printf("%d",x/10);
   }
+  
   printf("\n    ");
   for (int x = 0; x < b->width; x++) {
     printf("%d",x%10);
   }
   printf("\nFound %d of %d mines\n", found, b->totalMines);
 }
+
 int countMines(board_t * b, int x, int y) {
     
   int mines = 0; 
@@ -130,8 +132,7 @@ int countMines(board_t * b, int x, int y) {
     if(IS_MINE(b->board[y + 1][x + 1])) {      
       mines++;      
     }    
-  }  
-  else if (x == 0 && y == (b->height) - 1) {    
+  } else if (x == 0 && y == (b->height) - 1) {    
     if(IS_MINE(b->board[y - 1][x])) {      
       mines++;      
     }
@@ -143,21 +144,19 @@ int countMines(board_t * b, int x, int y) {
     if(IS_MINE(b->board[y][x + 1])) {      
       mines++;      
     }    
-  }  
-  else if (x == (b->width) - 1 && y == 0) {    
+  } else if (x == (b->width) - 1 && y == 0) {    
     if(IS_MINE(b->board[y][x - 1])) {      
-      mines++;      
-    }    
-    if(IS_MINE(b->board[y + 1][x - 1])) {      
       mines++;      
     }
     
+    if(IS_MINE(b->board[y + 1][x - 1])) {      
+      mines++;      
+    }
+	
     if(IS_MINE(b->board[y + 1][x])) {      
       mines++;      
     }    
-  }
-  
-  else if (x == (b->width) - 1 && y == (b->height) - 1) {    
+  } else if (x == (b->width) - 1 && y == (b->height) - 1) {    
     if(IS_MINE(b->board[y - 1][x - 1])) {      
       mines++;      
     }
@@ -169,11 +168,10 @@ int countMines(board_t * b, int x, int y) {
     if(IS_MINE(b->board[y][x - 1])) {      
       mines++;      
     }    
-  }  
-  else if (x == 0) {    
+  } else if (x == 0) {    
     for (int i = 0; i < 2; i++) {      
       if (IS_MINE(b->board[y - 1][i])) {	
-	mines++;	
+		mines++;	
       }      
     }
     
@@ -183,14 +181,13 @@ int countMines(board_t * b, int x, int y) {
     
     for (int i = 0; i < 2; i++) {      
       if (IS_MINE(b->board[y + 1][i])) {	
-	mines++;	
+		mines++;	
       }      
     }    
-  }  
-  else if (x == (b->width) - 1) {    
+  } else if (x == (b->width) - 1) {    
     for (int i = 0; i < 2; i++) {      
       if (IS_MINE(b->board[y - 1][x - i])) {	
-	mines++;	
+		mines++;	
       }      
     }
     
@@ -200,14 +197,13 @@ int countMines(board_t * b, int x, int y) {
     
     for (int i = 0; i < 2; i++) {      
       if (IS_MINE(b->board[y + 1][x - i])) {	
-	mines++;	
+		mines++;	
       }      
     }    
-  }  
-  else if (y == 0) {    
+  } else if (y == 0) {    
     for (int i = 0; i < 2; i++) {      
       if (IS_MINE(b->board[y + i][x - 1])) {	
-	mines++;	
+		mines++;	
       }     
     }
     
@@ -217,15 +213,13 @@ int countMines(board_t * b, int x, int y) {
     
     for (int i = 0; i < 2; i++) {      
       if (IS_MINE(b->board[y + i][x + 1])) {	
-	mines++;	
+		mines++;	
       }      
     }    
-  }
-  
-  else if (y == (b->height) - 1) {    
+  } else if (y == (b->height) - 1) {    
     for (int i = 0; i < 2; i++) {      
       if (IS_MINE(b->board[y - i][x - 1])) {	
-	mines++;	
+		mines++;	
       }      
     }
     
@@ -235,26 +229,25 @@ int countMines(board_t * b, int x, int y) {
     
     for (int i = 0; i < 2; i++) {      
       if (IS_MINE(b->board[y - i][x + 1])) {	
-	mines++;	
+		mines++;	
       }      
     }    
-  }  
-  else {    
+  } else {    
     for (int i = 0; i < 3; i++) {      
       if (IS_MINE(b->board[y - 1][x + i - 1])) {	
-	mines++;	
+		mines++;	
       }      
     }
     
     for (int i = 0; i < 3; i += 2) {      
       if(IS_MINE(b->board[y][x + i - 1])) {	
-	mines++;	
+		mines++;	
       }      
     }
     
     for (int i = 0; i < 3; i++) {      
       if (IS_MINE(b->board[y + 1][x + i - 1])) {	
-	mines++;	
+		mines++;	
       }      
     }    
   } 
@@ -269,9 +262,11 @@ int click (board_t * b, int x, int y) {
   if (b->board[y][x] == KNOWN_MINE) {
     return CLICK_KNOWN_MINE;
   }
+  
   if (b->board[y][x] == HAS_MINE) {
     return CLICK_LOSE;
   }
+  
   if (b->board[y][x] != UNKNOWN) {
     return CLICK_CONTINUE;
   }
@@ -285,7 +280,7 @@ int checkWin(board_t * b) {
   for (int i = 0; i < b->height; i++) {    
     for (int j = 0;  j < b->width; j++) {      
       if (b->board[i][j] == UNKNOWN) {	
-	return 0;	
+		return 0;	
       }      
     }    
   }
@@ -307,19 +302,23 @@ int readInt(char ** linep, size_t * lineszp) {
     fprintf (stderr,"End of file from keyboard reading a number.  Quitting\n");
     exit(EXIT_FAILURE);
   }
+  
   char * endptr = NULL;
   long int x = strtol (*linep, &endptr, 10);
+  
   if (endptr == *linep) {
     fprintf (stderr,"You did not enter any valid number\n");
     printf ("Please try again\n");
     return readInt (linep, lineszp);
   }
+  
   if (*endptr != '\n') {
     fprintf( stderr, 
 	     "Input was not entirely a number (junk at end)\n");
     printf ("Please try again\n");
     return readInt (linep, lineszp);
   }
+  
   if (x > INT_MAX) {
     fprintf(stderr,"%ld is too big for an int!\n", x);
     printf("Please try again\n");

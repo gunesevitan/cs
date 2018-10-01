@@ -58,24 +58,22 @@ deck_t * hand_from_string(const char * str, future_cards_t * fc) {
   while (str[count] != '\0') {    
     if (!isalpha(str[count]) && !isdigit(str[count]) && (str[count] != '?')) {      
       count++;      
-    }    
-    else {      
+    } else {      
       lstIdx = getLastIndex(str, count);      
       if (lstIdx == -1) {	
-	return NULL;	
+		return NULL;	
       }      
       if (str[count] == '?') {	
-	c_name = (char *)realloc(c_name, (lstIdx - count + 1)*sizeof(*c_name));	
-	c_name = strncpy(c_name, str + count, (size_t)(lstIdx - count));	
-	c_name[lstIdx - count] = '\0';	
-	idx = strToInt(c_name + 1);	
-	add_card = add_empty_card(ret_d);	
-	add_future_card(fc, idx, add_card);	
-	count = lstIdx;	
-      }      
-      else {	
-	add_card_to(ret_d, card_from_letters(str[count], str[count + 1]));	
-	count += 2;	
+		c_name = (char *)realloc(c_name, (lstIdx - count + 1)*sizeof(*c_name));	
+		c_name = strncpy(c_name, str + count, (size_t)(lstIdx - count));	
+		c_name[lstIdx - count] = '\0';	
+		idx = strToInt(c_name + 1);	
+		add_card = add_empty_card(ret_d);	
+		add_future_card(fc, idx, add_card);	
+		count = lstIdx;	
+      } else {	
+		add_card_to(ret_d, card_from_letters(str[count], str[count + 1]));	
+		count += 2;	
       }      
       g_count++;      
     }    
@@ -101,7 +99,8 @@ deck_t ** read_input(FILE * f, size_t * n_hands, future_cards_t * fc) {
     lineToStr(line);    
     ret_ar[*n_hands] = hand_from_string(line, fc);    
     (*n_hands)++;    
-  }  
+  } 
+  
   free(line);  
   return ret_ar;
 }

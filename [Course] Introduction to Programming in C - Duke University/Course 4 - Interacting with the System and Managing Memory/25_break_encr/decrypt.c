@@ -3,8 +3,7 @@
 #include <ctype.h>
 #include <limits.h>
 
-int maxValueAt(int * arr, unsigned size) {
-  
+int get_max_index(int * arr, unsigned size) {  
   int max = INT_MIN;  
   int max_index = 0;
   
@@ -18,21 +17,18 @@ int maxValueAt(int * arr, unsigned size) {
 }
 
 
-int calcKey(int guessE) {
-  
+int get_key(int guess) {  
   int key = 0;
   
-  if (guessE >= 4 ) {    
-    key = guessE - 4;    
-  }  
-  else {    
-    key = 26 - (guessE + 4);    
+  if (guess >= 4 ) {    
+    key = guess - 4;    
+  } else {    
+    key = 26 - (guess + 4);    
   }  
   return key;  
 }
 
-void decrypt(FILE * f) {
-  
+void decrypt(FILE * f) {  
   int c;  
   int crypt[26] = {0};
   
@@ -44,14 +40,12 @@ void decrypt(FILE * f) {
     }    
   }
   
-  int guessE = maxValueAt(crypt, 26);  
-  int key = calcKey(guessE);  
-  printf("%d\n", key);
-  
+  int guess = get_max_index(crypt, 26);  
+  int key = get_key(guess);  
+  printf("%d\n", key);  
 }
 
-int main(int argc, char ** argv) {
-  
+int main(int argc, char ** argv) {  
   if (argc !=2) {    
     fprintf(stderr, "Usage: decrypt inputFileName\n");    
     return EXIT_FAILURE;    

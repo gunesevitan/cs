@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include "future.h"
 
-
 void add_future_card(future_cards_t * fc, size_t index, card_t * ptr) {
   
   size_t sz = 0;
@@ -26,7 +25,7 @@ void add_future_card(future_cards_t * fc, size_t index, card_t * ptr) {
   }
   
   size_t cards_n = (fc->decks[index]).n_cards + 1;  
-  (fc->decks[index]).cards = (card_t **)realloc((fc->decks[index]).cards, cards_n*sizeof(*((fc->decks[index]).cards)));  
+  (fc->decks[index]).cards = (card_t **)realloc((fc->decks[index]).cards, cards_n * sizeof(*((fc->decks[index]).cards)));  
   (fc->decks[index]).n_cards++;  
   (fc->decks[index]).cards[cards_n - 1] = ptr;  
 }
