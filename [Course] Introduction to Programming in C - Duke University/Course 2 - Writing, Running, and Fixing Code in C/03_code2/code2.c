@@ -1,5 +1,4 @@
-int printTriangle(int size) {
-	
+int printTriangle(int size) {	
     int starCount = 0;
   
     for(int i = 0; i < size; i++){
@@ -12,8 +11,7 @@ int printTriangle(int size) {
     return starCount;
 }
 
-int main(void) {
-	
+int main(void) {	
 	int numStars;
 	
     printf("Here is a triangle with height 4\n");

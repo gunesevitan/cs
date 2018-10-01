@@ -1,5 +1,4 @@
-int max (int num1, int num2) {
-	
+int max (int num1, int num2) {	
     if (num1 > num2){
 		return num1;
     } else {
@@ -7,8 +6,7 @@ int max (int num1, int num2) {
     }
 }
 
-int main(void) {
-	
+int main(void) {	
     printf("max(42, -69) is %d\n", max(42, -69));
     printf("max(33, 0) is %d\n", max(33, 0));
     printf("max(0x123456, 123456) is %d\n", max(0x123456, 123456));
