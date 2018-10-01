@@ -5,15 +5,16 @@ int * arrayMax(int * array, int n) {
   if (n <= 0){    
     return NULL;
   }  
-  int * indexOfLargest = &array[0];
+  
+  int * largest = &array[0];
   int i;
   
   for (i = 1; i < n; i++){    
-    if (array[i] > *indexOfLargest ){      
-      indexOfLargest = &array[i];      
+    if (array[i] > *largest ){      
+      largest = &array[i];      
     }    
   }  
-  return indexOfLargest;
+  return largest;
  }
 
 void doTest(int * array, int n) {
@@ -25,14 +26,14 @@ void doTest(int * array, int n) {
     printf("{");
     for (int i =0; i < n; i++) {
       printf("%d", array[i]);
-      if (i < n -1) {
+      if (i < n - 1) {
 	printf(", ");
       }
     }
     printf("}");
   }
   printf(", %d) is \n", n);
-  int * p = arrayMax (array, n);
+  int * p = arrayMax(array, n);
   if (p == NULL) {
     printf("NULL\n");
   }
