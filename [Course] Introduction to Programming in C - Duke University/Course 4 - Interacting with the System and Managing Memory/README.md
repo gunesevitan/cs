@@ -2,12 +2,13 @@
 
 
 
-* Directories have the assignment solutions from the course.
+* Directories have the assignment source codes from the course.
 * C files have quiz answers from each week.
 
 ------------------------------------------------------------
 
 #### Course Certificate ####
+https://www.coursera.org/account/accomplishments/certificate/9X2ANVAGJYMH
 
 ------------------------------------------------------------
 
