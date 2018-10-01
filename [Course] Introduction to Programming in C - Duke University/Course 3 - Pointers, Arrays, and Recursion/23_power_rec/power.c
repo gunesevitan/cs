@@ -4,13 +4,13 @@
 unsigned int power(unsigned x, unsigned y);
 
 unsigned int power(unsigned int x, unsigned int y){  
-  if(x == 0 && y == 0){    
+  if (x == 0 && y == 0){    
     return 1;    
   }
     
-  if(y != 0){    
+  if (y != 0){    
     return (x * power(x, y - 1));
-  }else{    
+  } else {    
     return 1;
   }
 }

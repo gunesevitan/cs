@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <limits.h>
 
-
 unsigned power(unsigned x, unsigned y);
 
 void test_power(unsigned int base, unsigned int exponent, unsigned int answer){  
