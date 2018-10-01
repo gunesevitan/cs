@@ -11,7 +11,7 @@ void test(int *array, size_t n, size_t correct_ans){
 
 int main(){
   
-  int array1[] ={1,2,3,4};  
+  int array1[] = {1,2,3,4};  
   test(array1,4,4);
   
   int array2[] = {1,2,3,3,4,5};  

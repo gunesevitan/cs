@@ -19,25 +19,26 @@ int * arrayMax(int * array, int n) {
 
 void doTest(int * array, int n) {
   printf("arrayMax(");
+  
   if (array == NULL) {
     printf("NULL");
-  }
-  else {
+  } else {
     printf("{");
     for (int i =0; i < n; i++) {
       printf("%d", array[i]);
       if (i < n - 1) {
-	printf(", ");
+	    printf(", ");
       }
     }
     printf("}");
   }
+  
   printf(", %d) is \n", n);
   int * p = arrayMax(array, n);
+  
   if (p == NULL) {
     printf("NULL\n");
-  }
-  else {
+  } else {
     printf("%d\n", *p);
   }
 }
