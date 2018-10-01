@@ -2,7 +2,7 @@
 
 
 
-* Directories have the assignment source code from the course.
+* Directories have the assignment source codes from the course.
 * C files have quiz answers from each week.
 
 ------------------------------------------------------------

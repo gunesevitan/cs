@@ -27,7 +27,8 @@ rectangle canonicalize(rectangle r) {
   r_canonicalized.x = r.x;  
   r_canonicalized.y = r.y;  
   r_canonicalized.width = r.width;  
-  r_canonicalized.height = r.height;  
+  r_canonicalized.height = r.height;
+  
   if(r.width < 0){    
     r_canonicalized.x = r.x + r.width;    
     r_canonicalized.width = r.width * -1;    
@@ -56,13 +57,13 @@ rectangle intersection(rectangle r1, rectangle r2) {
   
   if(width == r1.x + r1.width){    
     r_intersect.width = width - r2.x;    
-  }else if(width == r2.x + r2.width){    
+  } else if(width == r2.x + r2.width){    
     r_intersect.width = width - r1.x;    
   } 
   
   if(height == r1.y + r1.height){    
     r_intersect.height = height - r2.y;    
-  }else if(height == r2.y + r2.height){    
+  } else if(height == r2.y + r2.height){    
     r_intersect.height = height - r1.y; 
   }
     
@@ -191,7 +192,5 @@ int main (void) {
   printf("intersection(r4,r4): ");
   printRectangle(i);
 
-
   return EXIT_SUCCESS;
-
 }
