@@ -7,6 +7,7 @@
 ------------------------------------------------------------
 
 #### Course Certificate ####
+https://www.coursera.org/account/accomplishments/certificate/JSAQZQZQMLP5
 
 ------------------------------------------------------------
 
