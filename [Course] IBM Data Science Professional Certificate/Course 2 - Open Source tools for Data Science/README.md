@@ -2,7 +2,7 @@
 
 
 
-* .py files have quiz answers from each week.
+* .ipynb files have quiz answers and assignments from each week.
 
 ------------------------------------------------------------
 
