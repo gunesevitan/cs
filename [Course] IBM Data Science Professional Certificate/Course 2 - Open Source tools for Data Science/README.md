@@ -1,4 +1,4 @@
-#### This is the directory of quiz answers from the course "Open Source tools for Data Science" by IBM on Coursera. ####
+#### This is the directory of quiz answers and assignments from the course "Open Source tools for Data Science" by IBM on Coursera. ####
 
 
 

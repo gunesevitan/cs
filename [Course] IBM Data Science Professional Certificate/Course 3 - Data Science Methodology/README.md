@@ -1,8 +1,8 @@
-#### This is the directory of quiz answers from the course "Data Science Methodology" by IBM on Coursera. ####
+#### This is the directory of quiz answers, assignments and notes from the course "Data Science Methodology" by IBM on Coursera. ####
 
 
 
-* .ipynb files have quiz answers from each week.
+* .ipynb files have quiz answers, assignments and notes from each week.
 
 ------------------------------------------------------------
 
