@@ -11,5 +11,9 @@
 #### Specialization Certificate ####
 
 
+------------------------------------------------------------
 
+These files contain code from
+Applied Data Science with Python Specialization by University of Michigan
 
+https://www.coursera.org/specializations/data-science-python
