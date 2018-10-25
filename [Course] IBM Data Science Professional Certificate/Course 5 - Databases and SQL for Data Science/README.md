@@ -25,6 +25,7 @@ https://www.youracclaim.com/badges/0141f98a-dd50-45b0-9224-3b010b69c02f/public_u
 
 These files contain code from
 Databases and SQL for Data Science by IBM
+
 https://www.coursera.org/learn/sql-data-science
 
 
