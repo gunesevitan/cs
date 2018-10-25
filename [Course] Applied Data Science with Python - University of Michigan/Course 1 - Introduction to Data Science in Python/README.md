@@ -2,9 +2,9 @@
 
 
 
-* ipynb files have notes and assignments from each week.
+* .ipynb files have notes, quiz answers and assignments from each week.
 
-* ipynb files may not be rendered fully because the kernel doesn't match. In that case paste the notebook link to https://nbviewer.jupyter.org/
+* .ipynb files may not be rendered fully because the kernel doesn't match. In that case paste the notebook link to https://nbviewer.jupyter.org/
 
 ------------------------------------------------------------
 
