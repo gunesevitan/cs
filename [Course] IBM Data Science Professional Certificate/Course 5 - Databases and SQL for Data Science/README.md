@@ -2,7 +2,13 @@
 
 
 
+* .sql files are the SQL code used in the notes and assignments.
+
+* .csv files are the data used in the notes and assignments.
+
 * .ipynb files have quiz answers, assignments and notes from each week.
+
+* .ipynb files may not be rendered fully because the kernel doesn't match. In that case paste the notebook link to https://nbviewer.jupyter.org/
 
 
 ------------------------------------------------------------
