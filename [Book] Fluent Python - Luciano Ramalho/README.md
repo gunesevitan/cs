@@ -1,8 +1,8 @@
-#### This is the directory of exercise solutions, related files and the code from the book "Fluent Python" by Luciano Ramalho. ####
+#### This is the directory of codes from the book "Fluent Python" by Luciano Ramalho. ####
 
 
 
-* Files have the codes from chapters.
+* Files have the codes from each chapter.
 
 ------------------------------------------------------------
 

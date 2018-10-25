@@ -1,8 +1,8 @@
-#### This is the directory of exercise solutions, related files and the code from the book "Think Python" by Allen B. Downey. ####
+#### This is the directory of exercise solutions, related files and codes from the book "Think Python" by Allen B. Downey. ####
 
 
 
-* Code directory has all the codes in the book.
+* Code directory has all the codes from each chapter.
 
 * .py files have exercises from the chapters.
 
