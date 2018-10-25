@@ -2,9 +2,9 @@
 
 
 
-* Code directory has all the codes discussed in the book.
+* Code directory has all the codes in the book.
 
-* .py have exercises from the chapters.
+* .py files have exercises from the chapters.
 
 * "words.txt" is the word list used in the Chapter 9.
 
