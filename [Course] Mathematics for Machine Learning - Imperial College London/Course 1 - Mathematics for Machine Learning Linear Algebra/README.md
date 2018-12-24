@@ -2,6 +2,8 @@
 
 
 
+* Formula Sheet.pdf is the formulas used throughout the course.
+
 * .ipynb files have quiz answers and assignments from each week.
 
 * .ipynb files may not be rendered fully because the kernel doesn't match. In that case paste the notebook link to https://nbviewer.jupyter.org/
