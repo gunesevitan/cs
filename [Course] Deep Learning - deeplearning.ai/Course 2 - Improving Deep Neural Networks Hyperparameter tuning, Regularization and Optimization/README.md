@@ -1,8 +1,6 @@
-#### This is the directory of quiz answers and assignments from the course "Neural Networks and Deep Learning" by deeplearning.ai on Coursera. ####
+#### This is the directory of quiz answers and assignments from the course "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization" by deeplearning.ai on Coursera. ####
 
 
-
-* Deep Learning Notation.pdf is the notations used throughout the course.
 
 * .ipynb files have quiz answers and assignments from each week.
 
@@ -12,12 +10,12 @@
 ------------------------------------------------------------
 
 #### Course Certificate ####
-https://www.coursera.org/account/accomplishments/certificate/2JKFJFFGFCZ3
+https://www.coursera.org/account/accomplishments/certificate/EQDHCR7VYWCL
 
 ------------------------------------------------------------
 
 These files contain code from
-Neural Networks and Deep Learning
+Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
 by deeplearning.ai
 
-https://www.coursera.org/learn/neural-networks-deep-learning/
+https://www.coursera.org/learn/deep-neural-network/
