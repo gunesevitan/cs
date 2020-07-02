@@ -1,1 +1,0 @@
-../29_outname/outname.c
