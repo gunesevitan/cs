@@ -9,6 +9,7 @@
 ------------------------------------------------------------
 
 #### Course Certificate ####
+https://www.coursera.org/account/accomplishments/verify/URW4H7NML9GN
 
 ------------------------------------------------------------
 
