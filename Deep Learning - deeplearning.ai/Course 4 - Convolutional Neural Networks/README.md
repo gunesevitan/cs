@@ -4,5 +4,5 @@ This is the directory of the course [Convolutional Neural Networks](https://www.
 
 ---
 
-#### Course Certificate
+## Completion Certificate
 https://www.coursera.org/account/accomplishments/certificate/84VU5WTP75RP
