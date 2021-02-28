@@ -1,21 +1,8 @@
-#### This is the directory of quiz answers and assignments from the course "Writing, Running, and Fixing Code in C" by Duke University on Coursera. ####
+## Writing, Running, and Fixing Code in C
 
+This is the directory of the course [Writing, Running, and Fixing Code in C](https://www.coursera.org/learn/writing-running-fixing-code) by Duke University on Coursera.
 
+---
 
-* Directories have the assignment source codes from the course.
-* C files have quiz answers from each week.
-
-------------------------------------------------------------
-
-#### Course Certificate ####
+## Completion Certificate 
 https://www.coursera.org/account/accomplishments/certificate/2VC5SWFULZ35
-
-------------------------------------------------------------
-
-These files contain code from
-Introduction to Programming in C by Duke University
-https://www.coursera.org/learn/writing-running-fixing-code
-
-
-
-
