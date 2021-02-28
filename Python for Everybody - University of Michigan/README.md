@@ -1,16 +1,8 @@
-#### This is the root directory of the specialization "Python for Everybody" by University of Michigan on Coursera. ####
+## Python for Everybody
 
+This is the directory of the specialization [Python for Everybody](https://www.coursera.org/specializations/python) by University of Michigan on Coursera. Directories are the courses in the specialization and they may contain course notes, codes, notebooks and etc. along with completion certificate.
 
+---
 
-* Files have the courses in the specialization.
-
-* Courses have each week's quiz and assignment.
-
-------------------------------------------------------------
-
-#### Specialization Certificate ####
+## Completion Certificate
 https://www.coursera.org/account/accomplishments/specialization/certificate/HSAGFEBW8AYC
-
-
-
-

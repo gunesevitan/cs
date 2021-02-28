@@ -1,22 +1,8 @@
-#### This is the directory of quiz answers, assignments and related files from the course "Python Data Structures" by University of Michigan on Coursera. ####
+## Python Data Structures
 
+This is the directory of the course [Python Data Structures](https://www.coursera.org/learn/python-data/) by University of Michigan on Coursera.
 
+---
 
-* Modules have quiz answers and assignment solutions from the chapters.
-
-* mbox-short.txt, romeo.txt and words.txt are used in Chapter 7-8-9-10.
-
-------------------------------------------------------------
-
-#### Course Certificate ####
+## Completion Certificate
 https://www.coursera.org/account/accomplishments/certificate/6MDWJMNXY8QV
-
-------------------------------------------------------------
-
-These modules contain code from
-Python for Everybody by Charles Severance
-https://www.coursera.org/learn/python-data
-
-
-
-

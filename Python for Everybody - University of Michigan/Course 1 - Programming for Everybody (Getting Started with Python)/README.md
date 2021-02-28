@@ -1,20 +1,8 @@
-#### This is the directory of quiz answers, assignments and related files from the course "Programming for Everybody (Getting Started with Python)" by University of Michigan on Coursera. ####
+## Programming for Everybody (Getting Started with Python)
 
+This is the directory of the course [Programming for Everybody (Getting Started with Python)](https://www.coursera.org/learn/python/) by University of Michigan on Coursera.
 
+---
 
-* Modules have quiz answers and assignment solutions from the chapters.
-
-------------------------------------------------------------
-
-#### Course Certificate ####
+## Completion Certificate
 https://www.coursera.org/account/accomplishments/certificate/CYHBXDRJTVHF
-
-------------------------------------------------------------
-
-These modules contain code from
-Python for Everybody by Charles Severance
-https://www.coursera.org/learn/python
-
-
-
-
