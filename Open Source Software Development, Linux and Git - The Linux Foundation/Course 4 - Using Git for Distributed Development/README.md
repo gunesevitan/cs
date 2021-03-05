@@ -5,4 +5,4 @@ This is the directory of the course [Using Git for Distributed Development](http
 ---
 
 ## Completion Certificate
-
+https://www.coursera.org/account/accomplishments/certificate/4PQHC66LV8AV
