@@ -9,5 +9,5 @@ https://www.coursera.org/account/accomplishments/specialization/certificate/TSY5
 
 ---
 
-## IBM Badge
+## Completion Badge
 https://www.youracclaim.com/badges/85cf2272-3bd3-4a47-b8df-b89440ad820e/public_url

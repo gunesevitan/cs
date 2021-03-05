@@ -9,5 +9,5 @@ https://www.coursera.org/account/accomplishments/certificate/2C2ZZ9AJMUSQ
 
 ---
 
-## IBM Badge
+## Completion Badge
 https://www.youracclaim.com/badges/80cfc03e-d7c3-4ac6-9761-534a9bd4263c/public_url
