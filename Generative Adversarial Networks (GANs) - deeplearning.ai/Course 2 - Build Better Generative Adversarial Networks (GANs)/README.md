@@ -1,6 +1,6 @@
 ## Build Better Generative Adversarial Networks (GANs)
 
-This is the directory of the course [Build Better Generative Adversarial Networks (GANs)](https://www.coursera.org/learn/build-basic-generative-adversarial-networks-gans/) by deeplearning.ai on Coursera.
+This is the directory of the course [Build Better Generative Adversarial Networks (GANs)](https://www.coursera.org/learn/build-better-generative-adversarial-networks-gans) by deeplearning.ai on Coursera.
 
 ---
 

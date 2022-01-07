@@ -5,4 +5,5 @@ This is the directory of the specialization [Generative Adversarial Networks (GA
 ---
 
 ## Completion Certificate
+https://www.coursera.org/account/accomplishments/specialization/certificate/95G2L654FAMG
 
