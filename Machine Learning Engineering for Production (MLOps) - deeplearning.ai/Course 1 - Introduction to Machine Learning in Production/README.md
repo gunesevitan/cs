@@ -1,6 +1,6 @@
 ## AI for Medical Diagnosis
 
-This is the directory of the course [Introduction to Machine Learning in Production](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops) by deeplearning.ai on Coursera.
+This is the directory of the course [Introduction to Machine Learning in Production](https://www.coursera.org/learn/introduction-to-machine-learning-in-production?specialization=machine-learning-engineering-for-production-mlops) by deeplearning.ai on Coursera.
 
 ---
 
